@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.*?>
+
+<StackPane xmlns="http://javafx.com/javafx/24" xmlns:fx="http://javafx.com/fxml/1"
+    fx:controller="controller.LaunchController"
+    prefWidth="900" prefHeight="600"
+    styleClass="root">
+
+    <HBox spacing="0">
+        <!-- Left side: Launch Box -->
+        <VBox alignment="CENTER" spacing="22.0" style="-fx-padding: 80 60;" prefWidth="450"
+            prefHeight="600" styleClass="launch-box">
+            <!-- logo Image on top -->
+            <ImageView fitHeight="80" fitWidth="80" preserveRatio="true">
+                <image>
+                    <Image url="@../assets/logo.jpeg" />
+                </image>
+            </ImageView>
+
+            <Label text="Welcome to" style="-fx-font-size: 26px; -fx-text-fill: #2e3440;">
+                <VBox.margin>
+                    <Insets top="-10" bottom="-25" />
+                </VBox.margin>
+            </Label>
+            <Label text="Library Management System"
+                style="-fx-font-size: 26px; -fx-text-fill: #2e3440;">
+                <VBox.margin>
+                    <Insets bottom="25" />
+                </VBox.margin>
+            </Label>
+
+            <Button text="User" onAction="#goToUserAuth" styleClass="primary-btn"
+                style="-fx-pref-width: 400px; -fx-pref-height: 40px;" />
+            <Button text="Admin" fx:id="adminButton" onAction="#goToAdminLogin"
+                styleClass="primary-btn" style="-fx-pref-width: 400px; -fx-pref-height: 40px;" />
+        </VBox>
+
+        <!-- Right side: Image -->
+        <ImageView fitWidth="450" fitHeight="600" preserveRatio="false">
+            <image>
+                <Image url="@../assets/main.jpeg" />
+            </image>
+        </ImageView>
+    </HBox>
+</StackPane>

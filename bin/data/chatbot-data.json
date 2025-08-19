@@ -1,0 +1,1113 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "hi",
+        "hello",
+        "hey",
+        "good morning",
+        "good evening",
+        "what's up",
+        "yo",
+        "hello there",
+        "hiya",
+        "hey bot",
+        "hey there"
+      ],
+      "responses": [
+        "Hi there! 😊 How can I assist you today?",
+        "Hey hey! 📚 Need help with books or something else?",
+        "Hello! I'm here and ready to help. Just type what you need!",
+        "Yo! I’m your friendly reading assistant. What’s the plan today?",
+        "Hey! Feeling bookish today? Let me know what you’re looking for!",
+        "Welcome back! Let’s explore some books, shall we? 😄",
+        "Greetings! Always nice to see you here."
+      ]
+    },
+    {
+      "tag": "who_are_you",
+      "patterns": [
+        "who are you",
+        "what are you",
+        "what can you do",
+        "tell me about yourself",
+        "are you a real person",
+        "are you a bot",
+        "who am I talking to",
+        "what's your job",
+        "what is your purpose",
+        "are you human"
+      ],
+      "responses": [
+        "I’m your friendly LMS assistant bot 🤖. Books, borrowing, dashboard—I'm here to help!",
+        "Just your loyal digital helper—no coffee needed, always online! ☕🚫",
+        "Think of me as your smart study buddy that never sleeps. I’m here for your library needs!",
+        "I’m a bot, but with enough personality to make you smile 😄",
+        "I don’t eat, I don’t sleep, I just help! Mostly with LMS stuff. 😉",
+        "Nope, not human. But I do my best to be helpful and kinda cool 😎",
+        "You’re chatting with the LMS genie... minus the lamp and the magic carpet! 🧞"
+      ]
+    },
+    {
+      "tag": "about_project",
+      "patterns": [
+        "what is this project",
+        "tell me about this project",
+        "what is this system",
+        "what is LMS",
+        "what can I do here",
+        "what does this software do",
+        "what's the use of this project",
+        "what is the function of this app",
+        "what is this",
+        "explain this system"
+      ],
+      "responses": [
+        "This is an LMS—Library Management System! Basically, your virtual library assistant 📚✨",
+        "It's a Library Management System (LMS). Sounds serious, but it's just super helpful for managing books, borrowing, and users!",
+        "This project's job? Making library life easy—searching, borrowing, and managing books with just a few clicks!",
+        "It’s a smart LMS made with love (and a lot of code) to help users manage books, borrow smoothly, and stay organized!",
+        "Library Management System, or LMS, sounds boring? Not this one 😉 You can borrow books, explore the catalog, and enjoy a clean dashboard experience!",
+        "Think of this as your library's brain 🧠... but without the overdue fines and dusty shelves 😄",
+        "Built to help you find books, borrow them easily, and manage users/admins like a pro. Pretty neat, huh?"
+      ]
+    },
+    {
+      "tag": "borrow",
+      "patterns": [
+        "how can I borrow a book",
+        "how to borrow",
+        "can I borrow books",
+        "tell me how to borrow a book",
+        "borrow option",
+        "where is the borrow button",
+        "how do I take a book",
+        "i want to borrow",
+        "i need a book",
+        "borrow book please",
+        "how to take a book from here"
+      ],
+      "responses": [
+        "To borrow a book, head over to the ‘Books’ tab in your dashboard and click the ‘Borrow’ button on your chosen book 📚✨",
+        "Just click ‘Books’ on the left panel, pick a book you like, and hit the ‘Borrow’ button. Boom! It’s yours for 15 days 😊",
+        "Easy! Go to the Books tab, find something you like, and press that 'Borrow' button. But remember, max 4 books at a time!",
+        "Borrowing's simple: Dashboard ➜ Books ➜ Borrow. But a few house rules—only 4 books max, 15 days duration, and no repeats 😉",
+        "You can borrow up to 4 books at a time. Already borrowed that book? Sorry, I won’t let you cheat the system 😅",
+        "Look for your book in the ‘Books’ tab, hit ‘Borrow’, and you’re good for 15 days. But don’t be greedy—4 books max! 🧠",
+        "See a book you love? Click ‘Borrow’! Just make sure you haven’t borrowed it already, and keep it for at most 15 days ⏳",
+        "Click ‘Books’ in your dashboard and borrow away! But... no more than 4 at once, and not the same book twice 😎",
+        "You’re allowed 0 to 4 books at a time, each for up to 15 days. Go borrow wisely, young reader 🧙‍♂️✨"
+      ]
+    },
+    {
+      "tag": "search",
+      "patterns": [
+        "how can I search a book",
+        "how to find books",
+        "search book by title",
+        "search book by author",
+        "find a book",
+        "can I search books",
+        "book search option",
+        "how to look for a book",
+        "search books by publisher",
+        "search books by genre",
+        "find books"
+      ],
+      "responses": [
+        "To search for a book, go to the ‘Books’ tab and type keywords in the search box. You can search by title, author, publisher, or genre! 🔍📚",
+        "Looking for something specific? Just enter the book’s title, author name, publisher, or genres in the search bar inside the Books tab. Easy, right? 😎",
+        "Simply open the Books tab and type what you want—title, author, publisher, or genre—and voilà! The list updates instantly.",
+        "Searching books is a breeze! Use the search box in the Books tab to find your book by title, author, publisher, or even genres.",
+        "Want to find that perfect read? Go to Books, type in the title, author, publisher, or genre, and watch the magic happen!",
+        "Book hunting? Just type your keywords in the search bar of the Books tab. You can search across title, author, publisher, or genre fields.",
+        "You can search books from the Books tab by title, author, publisher, or genre. Give it a try and find your next favorite!",
+        "Find your next adventure by searching the Books tab. Type any title, author, publisher, or genre to filter the collection.",
+        "The search feature in Books lets you quickly find books by title, author, publisher, or genres. Give it a go!",
+        "In the Books tab, the search box accepts title, author, publisher, and genre as input. Happy searching! 📖✨"
+      ]
+    },
+    {
+      "tag": "return",
+      "patterns": [
+        "how to return a book",
+        "return book process",
+        "can I return a book",
+        "book return rules",
+        "how to give back a book",
+        "return borrowed books",
+        "what happens if I return late",
+        "points for returning books",
+        "return and rating points",
+        "book return penalty"
+      ],
+      "responses": [
+        "You can return books from your dashboard under the 'Borrowed Books' section. Make sure to return on time to earn 5 points! 🎉",
+        "Return your borrowed books anytime from the dashboard. If you return on or before the due date, you get 5 points. Nice, right? 👍",
+        "Late return? No worries, but you'll lose 0.5 points per day past the due date. So try to be punctual! ⏰",
+        "Rating a book after returning earns you extra 3 points. No rating, no extra points, but no penalty either. Fair deal! 😉",
+        "Keep an eye on your return dates in the dashboard. Return books on time to earn points and avoid penalties!",
+        "Returned your book late? You'll lose 0.5 points per day late, so better hurry! But don’t stress too much.",
+        "Rate your returned book to earn extra points! It’s like a little thank you for the author and us. 📚✨",
+        "Return books from your dashboard's borrowed list. Timely returns = 5 points, ratings = +3 points, late = minus points. Simple!",
+        "Remember: Return on time to get 5 points. Return late and lose points. Rate the book to gain extra points. Win-win-win! 😎",
+        "Return your books in time and watch your points grow. Late returns cost points, but rating gives you bonus points!"
+      ]
+    },
+    {
+      "tag": "book_info",
+      "patterns": [
+        "how to see book info",
+        "show book details",
+        "book information",
+        "where to find book info",
+        "book info icon",
+        "details of book",
+        "book info",
+        "tell me about the book",
+        "what info does book have",
+        "how to check book info"
+      ],
+      "responses": [
+        "Click on the info icon 🛈 next to any book to see its full details like title, author, publisher, genre, and more!",
+        "Want to know more about a book? Just hit the info button beside it and explore everything we have about that book.",
+        "Each book has an info icon you can click to see all its details stored in our system. Easy, right?",
+        "Book info is just a click away! Tap the info icon on any book card to check title, author, publisher, genre, and more.",
+        "Looking for book details? Use the info icon next to the book—you’ll get all the juicy info about it!",
+        "The info icon shows you everything about a book, including title, author, publisher, genres, and other cool stuff.",
+        "Want to learn more before borrowing? Click the book’s info icon to get all the details at a glance.",
+        "See all book details instantly by clicking the info icon on the book card. Simple and helpful!",
+        "Book info icon is your friend — just click it to know everything about the book you’re interested in!",
+        "Click the info icon to dive deep into the book’s details. It’s like the book’s little bio!"
+      ]
+    },
+    {
+      "tag": "author_info_george_orwell",
+      "patterns": [
+        "tell me about george orwell",
+        "who is george orwell",
+        "information on george orwell",
+        "details about george orwell",
+        "author george orwell",
+        "tell me about the author george orwell",
+        "info on george orwell",
+        "george orwell biography",
+        "who wrote animal farm",
+        "author of nineteen eighty-four"
+      ],
+      "responses": [
+        "George Orwell was the pen name of Eric Arthur Blair, an English novelist and critic known for sharp social commentary. He wrote classics like Animal Farm and Nineteen Eighty-Four.",
+        "Orwell’s works, including Animal Farm and Nineteen Eighty-Four, offer brilliant social criticism and introduced terms like 'Big Brother' and 'Thought Police' into our daily language!",
+        "Known for his clear prose and powerful ideas, George Orwell fought totalitarianism through his writing, leaving a lasting mark on literature and politics.",
+        "If you’ve heard of 'Orwellian' society, thank George Orwell — he warned us about surveillance and loss of freedom long before it became cool to worry about privacy!",
+        "George Orwell’s writing blends storytelling with social criticism. Besides novels like Animal Farm, he wrote about his real-life experiences too, making him a true literary legend."
+      ]
+    },
+    {
+      "tag": "author_info_dan_brown",
+      "patterns": [
+        "tell me about dan brown",
+        "who is dan brown",
+        "information on dan brown",
+        "details about dan brown",
+        "author dan brown",
+        "tell me about the author dan brown",
+        "info on dan brown",
+        "dan brown biography",
+        "who wrote the da vinci code",
+        "author of robert langdon series"
+      ],
+      "responses": [
+        "Dan Brown is an American thriller author famous for the Robert Langdon series like The Da Vinci Code and Angels & Demons—full of cryptography, art, and conspiracy!",
+        "With over 200 million books sold and translations into 57 languages, Dan Brown’s novels are global sensations, and some even hit the big screen and TV!",
+        "His stories often dive into Christian themes and history, sparking discussions—but Dan says they’re more about spiritual exploration than controversy.",
+        "Think of Dan Brown as your go-to guy for fast-paced treasure hunts mixed with art, history, and a little mystery—perfect for a thrilling read!",
+        "If you love decoding secrets and racing against time, Dan Brown’s books will keep you hooked. Plus, they inspire some deep spiritual conversations!"
+      ]
+    },
+    {
+      "tag": "author_info_michael_crichton",
+      "patterns": [
+        "tell me about michael crichton",
+        "who is michael crichton",
+        "information on michael crichton",
+        "details about michael crichton",
+        "author michael crichton",
+        "michael crichton biography",
+        "michael crichton books",
+        "author of jurassic park",
+        "who wrote jurassic park",
+        "michael crichton info"
+      ],
+      "responses": [
+        "Michael Crichton was an American author and filmmaker, famous for techno-thrillers like Jurassic Park and The Andromeda Strain.",
+        "He combined medical knowledge and thrilling storytelling to explore science, technology, and their dangers.",
+        "With over 200 million books sold, many of his works inspired blockbuster films and TV series like ER.",
+        "His novels often dive into biotech, genetic modification, and human struggles with technology — all with a gripping twist!",
+        "Crichton’s stories are perfect for fans of science fiction mixed with suspense and real-world science."
+      ]
+    },
+    {
+      "tag": "author_info_harper_lee",
+      "patterns": [
+        "tell me about harper lee",
+        "who is harper lee",
+        "information on harper lee",
+        "details about harper lee",
+        "author harper lee",
+        "harper lee biography",
+        "harper lee books",
+        "author of to kill a mockingbird",
+        "who wrote to kill a mockingbird",
+        "harper lee info"
+      ],
+      "responses": [
+        "Harper Lee was an American novelist best known for her classic 'To Kill a Mockingbird', which won the Pulitzer Prize in 1961.",
+        "'To Kill a Mockingbird' explores deep themes like racism and social injustice seen through the eyes of children in the 1930s South.",
+        "She also helped her friend Truman Capote with research for 'In Cold Blood'.",
+        "Her second novel, 'Go Set a Watchman', was actually an earlier draft of Mockingbird, published much later in 2015.",
+        "Harper Lee earned many honors, including the Presidential Medal of Freedom for her impact on literature."
+      ]
+    },
+    {
+      "tag": "author_info_robert_pirsig",
+      "patterns": [
+        "tell me about robert pirsig",
+        "who is robert pirsig",
+        "information on robert pirsig",
+        "details about robert pirsig",
+        "author robert pirsig",
+        "robert pirsig biography",
+        "robert pirsig books",
+        "zen and the art of motorcycle maintenance author",
+        "who wrote zen and the art of motorcycle maintenance",
+        "robert pirsig info"
+      ],
+      "responses": [
+        "Robert M. Pirsig was an American writer and philosopher, famous for his book 'Zen and the Art of Motorcycle Maintenance'.",
+        "His works explore philosophy and values through engaging storytelling.",
+        "'Zen and the Art of Motorcycle Maintenance' is considered a philosophical classic since 1974.",
+        "He also wrote 'Lila: An Inquiry into Morals' and co-authored 'On Quality: An Inquiry Into Excellence' with his wife Wendy.",
+        "Pirsig’s writings blend philosophy, life reflections, and a quest for understanding quality and values."
+      ]
+    },
+    {
+      "tag": "author_info_george_rr_martin",
+      "patterns": [
+        "tell me about george rr martin",
+        "who is george rr martin",
+        "george rr martin author",
+        "author of game of thrones",
+        "george rr martin biography",
+        "who wrote a song of ice and fire",
+        "george rr martin info",
+        "details on george rr martin",
+        "george rr martin books",
+        "grrm"
+      ],
+      "responses": [
+        "George R.R. Martin is the mastermind behind the epic fantasy series 'A Song of Ice and Fire'—the saga that inspired 'Game of Thrones'.",
+        "Known as GRRM by fans, he’s an American author and TV producer who’s reshaped modern fantasy.",
+        "His storytelling is so gripping that 'Game of Thrones' became a global phenomenon!",
+        "He’s also contributed to video games like Elden Ring and helped create the Wild Cards anthology.",
+        "If you love fantasy with dragons, political drama, and surprises, Martin’s your guy!"
+      ]
+    },
+    {
+      "tag": "author_info_david_dodge",
+      "patterns": [
+        "tell me about david dodge",
+        "who is david dodge",
+        "david dodge author",
+        "author of mystery novels david dodge",
+        "david dodge biography",
+        "who wrote mystery books",
+        "david dodge info",
+        "details on david dodge",
+        "david dodge books"
+      ],
+      "responses": [
+        "David Dodge was an American author known for his sharp mystery and thriller novels.",
+        "His stories feature tight plots, snappy dialogues, and memorable characters.",
+        "Besides fiction, he wrote fun travel books full of practical tips for budget travelers.",
+        "He and his family had quite the adventures roaming around the world!",
+        "If you love a mix of suspense and humor, Dodge’s works might be your cup of tea."
+      ]
+    },
+    {
+      "tag": "author_info_andy_weir",
+      "patterns": [
+        "tell me about andy weir",
+        "who is andy weir",
+        "andy weir author",
+        "author of the martian",
+        "andy weir biography",
+        "andy weir novels",
+        "who wrote project hail mary",
+        "andy weir info",
+        "details on andy weir"
+      ],
+      "responses": [
+        "Andy Weir is an American novelist famous for his thrilling sci-fi stories.",
+        "His book The Martian was such a hit it became a blockbuster movie!",
+        "He won the John W. Campbell Award for Best New Writer in 2016 — pretty cool, right?",
+        "His recent novel, Project Hail Mary, was a finalist for the prestigious Hugo Award.",
+        "If you like science mixed with adventure, Andy Weir’s books are definitely worth checking out!"
+      ]
+    },
+    {
+      "tag": "author_info_liane_moriarty",
+      "patterns": [
+        "tell me about liane moriarty",
+        "who is liane moriarty",
+        "liane moriarty author",
+        "author of big little lies",
+        "liane moriarty biography",
+        "liane moriarty novels",
+        "liane moriarty info",
+        "details on liane moriarty"
+      ],
+      "responses": [
+        "Liane Moriarty is an Australian author known for her gripping novels full of twists.",
+        "Her books like Big Little Lies and Nine Perfect Strangers became popular TV series!",
+        "She’s got a knack for telling stories that keep you hooked till the last page.",
+        "Some of her other works, like The Husband's Secret, are set to be made into movies.",
+        "If you love mystery mixed with drama, Liane Moriarty’s stories are a must-read."
+      ]
+    },
+    {
+      "tag": "author_info_jrr_tolkien",
+      "patterns": [
+        "tell me about j.r.r. tolkien",
+        "who is j.r.r. tolkien",
+        "j.r.r. tolkien author",
+        "author of the lord of the rings",
+        "tolkien biography",
+        "jrr tolkien info",
+        "details on tolkien",
+        "tolkien books"
+      ],
+      "responses": [
+        "J.R.R. Tolkien was an English writer, famous for creating The Hobbit and The Lord of the Rings.",
+        "He’s considered the father of modern fantasy literature and inspired countless authors after him.",
+        "Tolkien was also a philologist and a professor at Oxford University.",
+        "His works created the rich world of Middle-earth, full of epic tales and invented languages.",
+        "If you love fantasy, Tolkien's stories are an absolute must-read — classics that never get old!"
+      ]
+    },
+    {
+      "tag": "author_info_paulo_coelho",
+      "patterns": [
+        "tell me about paulo coelho",
+        "who is paulo coelho",
+        "paulo coelho author",
+        "author of the alchemist",
+        "paulo coelho biography",
+        "details on paulo coelho",
+        "brazilian author paulo coelho",
+        "about paulo coelho"
+      ],
+      "responses": [
+        "Paulo Coelho is a famous Brazilian author and lyricist, best known for his international bestseller, 'The Alchemist'.",
+        "'The Alchemist' has inspired millions around the world with its magical story about following your dreams.",
+        "He’s been a member of the Brazilian Academy of Letters since 2002 — quite an honor!",
+        "If you love inspiring and philosophical stories, Paulo Coelho’s works are a must-read.",
+        "A word of advice: reading Paulo Coelho might just make you chase your own personal legend!"
+      ]
+    },
+    {
+      "tag": "author_info_robert_louis_stevenson",
+      "patterns": [
+        "tell me about robert louis stevenson",
+        "who is robert louis stevenson",
+        "robert louis stevenson author",
+        "about robert louis stevenson",
+        "robert louis stevenson novels",
+        "stevenson biography",
+        "robert louis stevenson books"
+      ],
+      "responses": [
+        "Robert Louis Stevenson was a Scottish storyteller famous for classics like 'Treasure Island' and 'Dr Jekyll and Mr Hyde'.",
+        "Despite health troubles, Stevenson traveled widely and wrote timeless adventure and darker realist tales.",
+        "His characters like Long John Silver still inspire adventure lovers around the world!",
+        "He spent his last years in Samoa, turning from adventure stories to more serious themes influenced by his surroundings.",
+        "Even after his death, Stevenson's works remain beloved and widely read—proving true stories never die!",
+        "Fun fact: In 2018, he was the 26th-most-translated author worldwide, just behind Charles Dickens!"
+      ]
+    },
+    {
+      "tag": "author_info_jd_salinger",
+      "patterns": [
+        "tell me about jd salinger",
+        "who is jd salinger",
+        "jd salinger author",
+        "about jd salinger",
+        "jd salinger books",
+        "jd salinger biography",
+        "jd salinger novels"
+      ],
+      "responses": [
+        "J.D. Salinger was an American author best known for his classic novel 'The Catcher in the Rye', a must-read for many adolescents!",
+        "'The Catcher in the Rye' explores themes like adolescent alienation and loss of innocence.",
+        "Besides his famous novel, Salinger wrote several acclaimed short stories and novellas, like 'Nine Stories' and 'Franny and Zooey'.",
+        "He became quite reclusive later in life, publishing less frequently but leaving a lasting literary legacy.",
+        "His work influenced generations and remains a staple in modern American literature.",
+        "Interesting fact: After 'The Catcher in the Rye', he shied away from the public eye but his writing still speaks volumes!"
+      ]
+    },
+    {
+      "tag": "dystopian_fiction",
+      "patterns": [
+        "what is dystopian fiction",
+        "tell me about dystopian novels",
+        "dystopian fiction meaning",
+        "explain dystopian stories",
+        "dystopian book genre",
+        "what type of books are dystopian fiction",
+        "dystopian fiction examples",
+        "what kind of fiction is dystopian"
+      ],
+      "responses": [
+        "Dystopian fiction is like a literary ‘what if’—what if society totally went off the rails? 😅 Think dark futures, strict governments, and a lot of dramatic plot twists!",
+        "It's the genre where everything goes wrong—but in a way that’s super interesting to read. Like The Hunger Games, 1984, or Divergent. Total page-turners!",
+        "Dystopian fiction dives into messed-up worlds, harsh governments, and rebels with a cause. Basically, future gone wrong, but great for bookworms. 📖🔥",
+        "Imagine a world where freedom is just a memory and rules rule everything—that’s dystopian fiction. Chilling? Yes. Addictive? Absolutely!",
+        "If you enjoy books where the hero fights a broken system and everything’s bleak but thrilling—that’s dystopian fiction for you!",
+        "Dystopian fiction: where writers imagine the worst possible future, and we readers eat it up with popcorn. 🍿😄",
+        "These stories take place in grim futures—oppressive regimes, tech overload, and brave heroes standing up against the chaos!"
+      ]
+    },
+    {
+      "tag": "fiction",
+      "patterns": [
+        "what is fiction",
+        "explain fiction",
+        "define fiction",
+        "meaning of fiction",
+        "fiction genre",
+        "what does fiction mean",
+        "fiction category",
+        "fiction type books"
+      ],
+      "responses": [
+        "Fiction is storytelling magic ✨—made-up stories that entertain, inspire, and sometimes even feel more real than reality.",
+        "It’s any story that comes from imagination—novels, short stories, even your grandma’s wild bedtime tales! 😄",
+        "Fiction doesn’t need facts, just a good imagination. It can be romantic, thrilling, mysterious, or anything in between.",
+        "Unlike non-fiction, fiction is about ‘what if’—what if people could fly, or animals could talk, or time travel was real?",
+        "Fiction is where dragons exist, detectives solve impossible crimes, and love always finds a way—basically, your mental vacation zone!",
+        "Any book that’s not based on real events or factual information—yep, that’s fiction for you!"
+      ]
+    },
+    {
+      "tag": "thriller",
+      "patterns": [
+        "what is thriller",
+        "define thriller",
+        "explain thriller books",
+        "thriller genre",
+        "what kind of book is a thriller",
+        "tell me about thriller stories",
+        "thriller category"
+      ],
+      "responses": [
+        "Thrillers are all about suspense, high stakes, and unexpected twists that keep you turning the pages.",
+        "A thriller is a genre full of tension, danger, and surprises—basically, a rollercoaster ride in book form!",
+        "These stories usually involve crime, mystery, or psychological mind games. Trust no one.",
+        "Thriller books are designed to keep you on the edge of your seat. Plot twists? Oh, plenty.",
+        "In thrillers, things are rarely what they seem. It's all about suspense and staying one step ahead.",
+        "Think fast-paced action, smart plots, and a constant feeling that something big is about to happen.",
+        "Thrillers are perfect for readers who enjoy tension, danger, and characters with secrets."
+      ]
+    },
+    {
+      "tag": "mystery",
+      "patterns": [
+        "what is mystery",
+        "define mystery books",
+        "tell me about mystery genre",
+        "what are mystery novels",
+        "explain mystery stories",
+        "mystery category",
+        "what kind of book is mystery"
+      ],
+      "responses": [
+        "Mystery books are all about solving puzzles—usually involving a crime, a secret, or something suspicious.",
+        "A mystery novel usually starts with a question, and the thrill is in uncovering the answer bit by bit.",
+        "Think detectives, clues, red herrings, and that satisfying ‘aha!’ moment at the end.",
+        "In mystery stories, someone knows the truth… and it’s your job (or the hero's) to find it out.",
+        "It’s like playing detective while reading—piecing together what happened, and who’s hiding something.",
+        "Whether it’s a stolen painting or a murder in the mansion, mystery keeps you guessing till the last page.",
+        "If you enjoy twists, secrets, and surprises—mystery books might just be your favorite kind of brain game."
+      ]
+    },
+    {
+      "tag": "adventure",
+      "patterns": [
+        "what is adventure",
+        "tell me about adventure books",
+        "define adventure genre",
+        "what are adventure stories",
+        "explain adventure novels",
+        "adventure category",
+        "books with adventure"
+      ],
+      "responses": [
+        "Adventure books are all about bold journeys, thrilling challenges, and daring heroes exploring the unknown.",
+        "If you love fast-paced stories filled with danger, treasure hunts, and epic quests—adventure is your genre!",
+        "Adventure novels often take you to exotic places, throw in some wild twists, and test the courage of the characters.",
+        "These stories are driven by action, discovery, and often survival—perfect if you're craving a literary thrill ride.",
+        "From lost islands to secret caves, adventure books bring high-stakes excitement and a sense of wonder.",
+        "Whether it’s a jungle trek or a time-travel quest, you can always expect the unexpected in an adventure novel.",
+        "Adventure books: where the stakes are high, the journeys are long, and boredom doesn’t stand a chance!"
+      ]
+    },
+    {
+      "tag": "science_fiction",
+      "patterns": [
+        "what is science fiction",
+        "tell me about sci-fi books",
+        "define science fiction genre",
+        "what are science fiction stories",
+        "explain sci-fi novels",
+        "science fiction category",
+        "books with sci-fi",
+        "science fiction"
+      ],
+      "responses": [
+        "Science fiction explores futuristic tech, space travel, time machines, and the 'what ifs' of science and society.",
+        "If you’re curious about robots, aliens, or alternate realities, science fiction is your go-to genre.",
+        "Sci-fi stories take us beyond the stars and deep into imagined futures where technology shapes everything.",
+        "From dystopian futures to intergalactic adventures, science fiction combines imagination with scientific ideas.",
+        "Think advanced tech, space odysseys, and mind-bending concepts that challenge what we know today.",
+        "Science fiction fuels your curiosity about the future, often mixing action, philosophy, and big questions.",
+        "Whether it’s AI uprisings or journeys to other planets, science fiction invites you to explore the unknown."
+      ]
+    },
+    {
+      "tag": "classic_fiction",
+      "patterns": [
+        "what is classic fiction",
+        "tell me about classic novels",
+        "define classic fiction genre",
+        "what are classic fiction books",
+        "explain classic literature",
+        "classic fiction",
+        "classic novels",
+        "famous classic books"
+      ],
+      "responses": [
+        "Classic fiction includes timeless stories that have shaped literature and are loved across generations.",
+        "Think of novels that have stood the test of time, like works by Dickens, Austen, or Twain.",
+        "Classic fiction often explores universal themes like love, society, and human nature with elegance and depth.",
+        "These books are considered must-reads for anyone who wants to understand literary history and culture.",
+        "Classic fiction offers rich characters and enduring stories that continue to inspire readers today.",
+        "If you want stories that influenced modern literature, classic fiction is where you should start.",
+        "From sweeping epics to intimate tales, classic fiction has something for every curious reader."
+      ]
+    },
+    {
+      "tag": "philosophical_fiction",
+      "patterns": [
+        "what is philosophical fiction",
+        "tell me about philosophical novels",
+        "define philosophical fiction genre",
+        "what are philosophical stories",
+        "explain philosophical literature",
+        "philosophical fiction",
+        "books with philosophy",
+        "philosophical novels"
+      ],
+      "responses": [
+        "Philosophical fiction explores deep questions about life, existence, ethics, and the human condition through storytelling.",
+        "If you enjoy stories that make you think about meaning, truth, and morality, this genre is for you.",
+        "These novels often blend narrative with philosophical ideas, inviting readers to reflect on big concepts.",
+        "Philosophical fiction can challenge your worldview while telling engaging stories about people and their struggles.",
+        "Expect thought-provoking plots that explore what it means to be human and how we find purpose.",
+        "It’s like having a conversation about life’s mysteries wrapped inside a novel you can’t put down.",
+        "Philosophical fiction pairs story with insight, making you ponder while you read."
+      ]
+    },
+    {
+      "tag": "fantasy",
+      "patterns": [
+        "what is fantasy genre",
+        "tell me about fantasy books",
+        "define fantasy fiction",
+        "what are fantasy novels",
+        "explain fantasy stories",
+        "fantasy",
+        "fantasy novels",
+        "fantasy books",
+        "books about magic",
+        "fantasy worlds"
+      ],
+      "responses": [
+        "Fantasy is all about magical worlds, mythical creatures, and adventures beyond the ordinary.",
+        "If you love stories with wizards, dragons, and epic quests, fantasy is your go-to genre.",
+        "Fantasy lets your imagination run wild with tales that escape reality and explore the impossible.",
+        "Expect enchanting settings, heroic journeys, and battles between good and evil in fantasy novels.",
+        "It’s a genre where magic rules and anything can happen — perfect for readers who love to dream big.",
+        "Fantasy books transport you to realms full of wonder, danger, and unforgettable characters.",
+        "From castles to enchanted forests, fantasy invites you to explore worlds only limited by imagination."
+      ]
+    },
+    {
+      "tag": "drama",
+      "patterns": [
+        "what is drama genre",
+        "tell me about drama books",
+        "define drama fiction",
+        "what are drama novels",
+        "explain drama stories",
+        "drama",
+        "dramatic novels",
+        "books about drama",
+        "emotional stories",
+        "serious fiction"
+      ],
+      "responses": [
+        "Drama focuses on realistic characters facing emotional conflicts and intense situations.",
+        "If you love stories that tug at your heart and explore human struggles, drama is perfect.",
+        "Drama novels dig deep into relationships, challenges, and personal growth.",
+        "Expect powerful storytelling that highlights emotions, decisions, and consequences.",
+        "Drama is where you find stories full of passion, conflict, and life-changing moments.",
+        "These books often portray raw, real-life issues with honesty and depth.",
+        "Drama invites you to experience the highs and lows of the human spirit."
+      ]
+    },
+    {
+      "tag": "historical_fiction",
+      "patterns": [
+        "what is historical fiction",
+        "tell me about historical novels",
+        "define historical fiction genre",
+        "what are historical fiction books",
+        "explain historical fiction stories",
+        "historical fiction",
+        "historical novels",
+        "books about history",
+        "fiction set in the past",
+        "historical stories"
+      ],
+      "responses": [
+        "Historical fiction blends real historical events and settings with imaginative storytelling.",
+        "If you love exploring the past through rich characters and exciting plots, this genre is for you.",
+        "Expect stories that transport you to different eras with authentic details and drama.",
+        "Historical fiction brings history alive by weaving facts with fiction in captivating ways.",
+        "These books let you walk through time, experiencing cultures, conflicts, and moments that shaped the world.",
+        "It’s a perfect genre for readers who enjoy learning history with a compelling narrative.",
+        "From ancient times to recent decades, historical fiction covers a wide range of fascinating periods."
+      ]
+    },
+    {
+      "tag": "philosophy",
+      "patterns": [
+        "what is philosophy",
+        "tell me about philosophy books",
+        "define philosophy genre",
+        "what are philosophy books",
+        "explain philosophy",
+        "philosophy",
+        "philosophical books",
+        "books on philosophy",
+        "philosophy literature",
+        "philosophical fiction"
+      ],
+      "responses": [
+        "Philosophy books explore the big questions about life, existence, knowledge, and ethics.",
+        "This genre invites you to think deeply about ideas, beliefs, and the nature of reality.",
+        "Philosophical fiction combines storytelling with profound reflections on human nature and morality.",
+        "If you love pondering life's mysteries and exploring different viewpoints, philosophy books are perfect.",
+        "Philosophy literature challenges your mind and encourages introspection and debate.",
+        "These books often question assumptions and seek to understand what it means to live well.",
+        "Philosophy is the playground of ideas where you explore wisdom from ancient to modern thinkers."
+      ]
+    },
+    {
+      "tag": "horror",
+      "patterns": [
+        "what is horror",
+        "tell me about horror books",
+        "define horror genre",
+        "what are horror novels",
+        "explain horror fiction",
+        "horror",
+        "scary books",
+        "thriller horror",
+        "horror stories",
+        "ghost stories",
+        "spooky books"
+      ],
+      "responses": [
+        "Horror fiction is all about thrilling and chilling tales that send shivers down your spine.",
+        "If you love creepy atmospheres, supernatural elements, and suspense, horror is the genre for you.",
+        "These stories often explore fear, the unknown, and things that go bump in the night.",
+        "Horror books can range from psychological thrillers to tales of ghosts, monsters, and dark mysteries.",
+        "Reading horror is like a rollercoaster for your nerves—exciting, terrifying, and addictive!",
+        "From haunted houses to eerie legends, horror fiction taps into our deepest fears and curiosities.",
+        "Whether you like subtle scares or full-on terror, horror has something to keep you up at night."
+      ]
+    },
+    {
+      "tag": "classic",
+      "patterns": [
+        "what is classic fiction",
+        "tell me about classic novels",
+        "define classic fiction genre",
+        "what are classic books",
+        "explain classic literature",
+        "classic fiction",
+        "classic novels",
+        "famous classic books",
+        "timeless literature",
+        "classic stories"
+      ],
+      "responses": [
+        "Classic fiction includes timeless stories that have shaped literature and are loved across generations.",
+        "Think of novels that have stood the test of time, like works by Dickens, Austen, or Twain.",
+        "Classic fiction often explores universal themes like love, society, and human nature with elegance and depth.",
+        "These books are must-reads for anyone who wants to understand literary history and culture.",
+        "Classic fiction offers rich characters and enduring stories that continue to inspire readers today.",
+        "If you want stories that influenced modern literature, classic fiction is where you should start.",
+        "From sweeping epics to intimate tales, classic fiction has something for every curious reader."
+      ]
+    },
+    {
+      "tag": "memoir",
+      "patterns": [
+        "what is memoir",
+        "tell me about memoir books",
+        "define memoir genre",
+        "memoir novels",
+        "memoir stories",
+        "personal memoir",
+        "memoir",
+        "autobiography",
+        "life stories",
+        "true personal stories"
+      ],
+      "responses": [
+        "Memoirs are personal stories that share someone's life experiences and memories.",
+        "This genre offers intimate insights into the author’s life, emotions, and important moments.",
+        "Memoirs blend storytelling with real-life events, often reflecting on growth and change.",
+        "If you enjoy true stories told with honesty and reflection, memoirs are perfect for you.",
+        "These books capture life lessons, struggles, and triumphs from a personal point of view.",
+        "Memoirs help readers connect deeply with the author’s unique journey and perspective.",
+        "In memoirs, the author takes you on a heartfelt ride through their past and experiences."
+      ]
+    },
+    {
+      "tag": "non_fiction",
+      "patterns": [
+        "what is non fiction",
+        "tell me about non fiction books",
+        "define non fiction genre",
+        "non fiction novels",
+        "non fiction stories",
+        "informative books",
+        "real life books",
+        "true stories",
+        "non fiction",
+        "educational books"
+      ],
+      "responses": [
+        "Non-fiction books are based on real facts, events, and information rather than imagination.",
+        "This genre includes biographies, history, self-help, essays, and many informative works.",
+        "If you want to learn about real people, places, or ideas, non-fiction is the way to go.",
+        "Non-fiction books provide knowledge, insights, and factual stories to inform and educate.",
+        "These books are perfect for readers who love learning about the world around them.",
+        "From science to history, non-fiction covers a wide range of topics and subjects.",
+        "Non-fiction helps you understand reality with accuracy and detailed explanation."
+      ]
+    },
+    {
+      "tag": "romance",
+      "patterns": [
+        "what is romance",
+        "tell me about romance novels",
+        "define romance genre",
+        "romantic books",
+        "love stories",
+        "romance novels",
+        "romance fiction",
+        "romantic fiction",
+        "romance",
+        "romantic tales"
+      ],
+      "responses": [
+        "Romance is a genre centered around love stories and emotional relationships between characters. It explores the joys, challenges, and complexities of romantic connections.",
+        "These books often focus on the journey of falling in love, overcoming obstacles, and building meaningful bonds that touch the heart.",
+        "If you enjoy heartfelt tales filled with passion, tenderness, and sometimes a bit of drama, romance novels are perfect for you.",
+        "Romantic fiction can range from light and sweet to intense and dramatic, but always with emotions at the core of the story.",
+        "The genre celebrates love in many forms, highlighting the power of connection and the human desire for companionship and understanding.",
+        "Romance stories provide an escape into worlds where love conquers all, making readers feel hopeful and emotionally engaged.",
+        "From timeless classics to modern tales, romance remains a beloved genre for those who believe in the magic of love."
+      ]
+    },
+    {
+      "tag": "literary",
+      "patterns": [
+        "what is literary fiction",
+        "tell me about literary novels",
+        "define literary fiction",
+        "literary books",
+        "literary fiction genre",
+        "literary fiction",
+        "literary novels",
+        "classic literary fiction",
+        "serious fiction",
+        "literary stories"
+      ],
+      "responses": [
+        "Literary fiction is known for its focus on style, depth, and character development, often exploring complex themes about human nature and society.",
+        "These novels tend to prioritize thoughtful storytelling and artistic expression over fast-paced plots or genre conventions.",
+        "If you enjoy books that make you think deeply and appreciate elegant prose, literary fiction is the right choice.",
+        "This genre often tackles important social, psychological, and philosophical questions through rich, multi-layered narratives.",
+        "Literary fiction is celebrated for its ability to challenge readers and offer fresh perspectives on life and humanity.",
+        "From introspective character studies to evocative explorations of culture, literary fiction provides a meaningful reading experience.",
+        "These books may not always have dramatic action but offer powerful insights through their artistry and storytelling."
+      ]
+    },
+    {
+      "tag": "history",
+      "patterns": [
+        "what is history genre",
+        "tell me about history books",
+        "define history genre",
+        "historical books",
+        "history novels",
+        "history genre",
+        "historical fiction",
+        "history stories",
+        "history",
+        "historical narratives"
+      ],
+      "responses": [
+        "History books explore real events and people from the past, providing insight into how societies and cultures evolved over time.",
+        "This genre includes both factual accounts and stories inspired by historical events, often giving a vivid sense of different eras.",
+        "If you love learning about the past and understanding how it shapes the present, history books are a great choice.",
+        "Historical fiction blends real historical settings with imagined characters or events to create engaging stories rooted in the past.",
+        "Whether it’s ancient civilizations or recent history, this genre helps readers connect with the experiences that shaped our world.",
+        "History books offer fascinating lessons and perspectives that deepen our appreciation of human progress and struggles.",
+        "From biographies to epic tales, history brings the past to life with rich detail and storytelling."
+      ]
+    },
+    {
+      "tag": "psychological_thriller",
+      "patterns": [
+        "what is psychological thriller",
+        "tell me about psychological thriller",
+        "define psychological thriller genre",
+        "psychological thriller books",
+        "psychological thriller stories",
+        "psychological suspense",
+        "thriller with psychological elements",
+        "mind-bending thrillers",
+        "psychological thriller novels",
+        "psychological thriller meaning"
+      ],
+      "responses": [
+        "Psychological thrillers dive deep into the minds of characters, blending suspense with intense emotional and mental conflict.",
+        "This genre keeps you on edge by exploring complex motives, fears, and the fragile nature of reality.",
+        "Expect twists, dark secrets, and mind games that challenge your perceptions and keep the tension high.",
+        "Psychological thrillers often blur the line between truth and illusion, making every page unpredictable.",
+        "If you love stories that mess with your mind while delivering gripping suspense, this genre is a perfect match.",
+        "They focus on the psychology behind actions, making the inner struggles just as thrilling as external dangers.",
+        "These novels combine mystery, suspense, and deep character studies to create unforgettable, tense narratives."
+      ]
+    },
+    {
+      "tag": "biography",
+      "patterns": [
+        "what is biography",
+        "tell me about biography",
+        "define biography genre",
+        "biography books",
+        "biographies",
+        "biographical stories",
+        "explain biography",
+        "biography meaning",
+        "biography novels",
+        "biography literature"
+      ],
+      "responses": [
+        "Biography is the story of a real person’s life, told in detail to give insight into their experiences and character.",
+        "These books explore someone’s journey, challenges, achievements, and the impact they made on the world.",
+        "Biographies often inspire readers by sharing the struggles and successes of remarkable individuals.",
+        "If you want to learn about history, famous people, or role models, biographies are a great choice.",
+        "They mix facts with storytelling to create engaging narratives about real lives.",
+        "Biographies help us understand the context behind achievements and events by seeing the person behind the story.",
+        "From artists to leaders, biographies let you walk in the shoes of fascinating people from all walks of life."
+      ]
+    },
+    {
+      "tag": "science_thriller",
+      "patterns": [
+        "what is science thriller",
+        "tell me about science thriller",
+        "define science thriller genre",
+        "science thriller books",
+        "science thriller novels",
+        "explain science thriller",
+        "science thriller stories",
+        "science thriller meaning",
+        "science fiction thriller",
+        "tech thriller"
+      ],
+      "responses": [
+        "Science thriller combines the excitement of thrilling plots with scientific concepts and technology.",
+        "These stories keep you on the edge of your seat while exploring cutting-edge science or dangerous experiments.",
+        "Expect fast-paced action mixed with intriguing scientific puzzles or high-stakes discoveries.",
+        "Perfect for readers who love both suspense and fascinating scientific ideas.",
+        "Science thrillers often explore ethical dilemmas around scientific advancement and its consequences.",
+        "They blend realistic science with gripping narratives to create adrenaline-pumping adventures.",
+        "If you enjoy thrilling mysteries wrapped in the world of science and technology, this genre is for you."
+      ]
+    },
+    {
+      "tag": "dark_romance",
+      "patterns": [
+        "what is dark romance",
+        "tell me about dark romance",
+        "define dark romance genre",
+        "dark romance books",
+        "dark romance novels",
+        "explain dark romance",
+        "dark love stories",
+        "dark romance meaning",
+        "gothic romance",
+        "dark romantic fiction"
+      ],
+      "responses": [
+        "Dark romance explores intense, often troubled love stories with deep emotional conflicts and shadows.",
+        "These tales dive into passion mixed with pain, secrets, and sometimes danger or taboo themes.",
+        "Expect complex characters struggling with inner demons while seeking love and redemption.",
+        "Perfect for readers who enjoy romance with a moody, mysterious, or suspenseful twist.",
+        "Dark romance blends love with elements of suspense, tragedy, and raw emotion.",
+        "These novels explore the darker side of relationships, where love can be both healing and haunting.",
+        "If you’re drawn to passionate stories that don’t shy away from challenges and intensity, dark romance is for you."
+      ]
+    },
+    {
+      "tag": "mythology",
+      "patterns": [
+        "what is mythology",
+        "tell me about mythology",
+        "define mythology genre",
+        "mythology books",
+        "mythology stories",
+        "explain mythology",
+        "mythological tales",
+        "ancient myths",
+        "mythology fiction",
+        "mythological fiction"
+      ],
+      "responses": [
+        "Mythology explores ancient stories and legends that explain the world, gods, and human nature.",
+        "These tales often feature gods, heroes, monsters, and epic adventures from various cultures.",
+        "Mythological fiction brings these timeless stories to life with imaginative retellings.",
+        "If you love epic sagas and legendary characters, mythology offers a rich and fascinating world.",
+        "Myths reveal how ancient people understood their universe and passed on wisdom through storytelling.",
+        "This genre combines fantasy, history, and culture in stories that have inspired generations.",
+        "Reading mythology lets you dive into the roots of storytelling and human imagination."
+      ]
+    },
+    {
+      "tag": "egyptian_mythology",
+      "patterns": [
+        "what is egyptian mythology",
+        "tell me about egyptian mythology",
+        "egyptian gods stories",
+        "egyptian myths",
+        "egyptian mythology books",
+        "stories of egyptian gods",
+        "ancient egypt myths",
+        "egyptian mythology legends",
+        "explain egyptian mythology",
+        "egyptian mythological tales"
+      ],
+      "responses": [
+        "Egyptian mythology is full of fascinating tales about gods like Ra, Osiris, and Isis and their adventures.",
+        "These myths explain the creation of the world, the afterlife, and the powers of the Egyptian gods.",
+        "In Egyptian stories, gods often take animal forms and control nature and fate.",
+        "The mythology offers a glimpse into ancient Egypt's beliefs and rituals about life and death.",
+        "If you love stories about pharaohs, magic, and divine battles, Egyptian mythology is a treasure trove.",
+        "These timeless legends have inspired countless books, movies, and artworks about ancient Egypt.",
+        "Egyptian myths reveal the mystery and grandeur of one of history’s most captivating civilizations."
+      ]
+    },
+    {
+      "tag": "gothic",
+      "patterns": [
+        "what is gothic fiction",
+        "tell me about gothic genre",
+        "define gothic fiction",
+        "gothic novels",
+        "gothic stories",
+        "explain gothic literature",
+        "gothic horror",
+        "gothic romance",
+        "gothic fiction books",
+        "gothic tales"
+      ],
+      "responses": [
+        "Gothic fiction is a thrilling blend of horror, romance, and mystery set in dark, atmospheric places.",
+        "It often features haunted castles, gloomy landscapes, and characters with deep secrets.",
+        "This genre explores themes of fear, the supernatural, and human psychology with a dramatic flair.",
+        "If you love spooky stories with a touch of romance and suspense, gothic fiction is your go-to.",
+        "Gothic tales have inspired many classic novels, blending terror with beauty and emotion.",
+        "The mood in gothic fiction is haunting and mysterious, perfect for readers who enjoy chills and thrills.",
+        "Think shadowy mansions, ghostly whispers, and love stories tangled with danger—that's gothic for you."
+      ]
+    },
+    {
+      "tag": "greek_mythology",
+      "patterns": [
+        "what is greek mythology",
+        "tell me about greek mythology",
+        "greek gods stories",
+        "greek myths",
+        "greek mythology books",
+        "stories of greek gods",
+        "ancient greek myths",
+        "greek mythology legends",
+        "explain greek mythology",
+        "greek mythological tales"
+      ],
+      "responses": [
+        "Greek mythology is a rich collection of stories about gods like Zeus, Hera, and Poseidon and their epic adventures.",
+        "These myths explain natural phenomena, human qualities, and life’s mysteries through fascinating tales.",
+        "Greek gods often have human-like emotions and flaws, making the stories deeply relatable and exciting.",
+        "The mythology includes heroic quests, battles with monsters, and lessons about bravery and wisdom.",
+        "If you love tales of gods, heroes, and ancient worlds, Greek mythology is a captivating journey.",
+        "Many modern stories, movies, and games draw inspiration from the timeless Greek myths.",
+        "Greek mythology reveals the values and imagination of ancient Greece through unforgettable legends."
+      ]
+    },
+    {
+      "tag": "dark_fantasy",
+      "patterns": [
+        "what is dark fantasy",
+        "tell me about dark fantasy",
+        "define dark fantasy genre",
+        "dark fantasy books",
+        "dark fantasy stories",
+        "explain dark fantasy",
+        "dark fantasy novels",
+        "gothic fantasy",
+        "dark magical stories",
+        "fantasy with dark themes"
+      ],
+      "responses": [
+        "Dark fantasy blends magical worlds with eerie, shadowy, and often unsettling elements.",
+        "It mixes fantasy adventure with horror, creating stories full of mystery, danger, and complex characters.",
+        "Expect morally gray heroes, haunted landscapes, and magic that can be both wondrous and terrifying.",
+        "Dark fantasy explores the struggle between light and darkness, often with a brooding atmosphere.",
+        "If you enjoy fantasy with a twist of darkness and deeper emotional conflicts, this genre is for you.",
+        "These stories take you on a journey through mysterious realms where nothing is purely good or evil.",
+        "Dark fantasy combines the enchantment of fantasy with the chilling suspense of horror, making it uniquely captivating."
+      ]
+    }
+  ]
+}

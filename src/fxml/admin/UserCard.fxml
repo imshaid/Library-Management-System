@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns:fx="http://javafx.com/fxml"
+    fx:controller="controller.UserCardController"
+    spacing="6"
+    alignment="CENTER"
+    style="-fx-background-color: #fafafc; -fx-padding: 20;"
+    styleClass="states-card"
+    prefWidth="300">
+
+    <!-- Profile Image -->
+    <ImageView fx:id="profileImage" fitHeight="160" fitWidth="160"
+        style="-fx-background-radius: 0;" />
+
+    <!-- User Info Labels -->
+    <Label fx:id="usernameLabel" style="-fx-text-fill: gray;" translateY="10" />
+    <Label fx:id="fullNameLabel" style="-fx-font-weight: bold; -fx-font-size: 16px;" />
+
+    <!-- Buttons horizontally aligned -->
+    <HBox spacing="100" alignment="CENTER">
+        <ImageView fx:id="deleteIcon" fitWidth="16" fitHeight="16" translateX="-16"
+            style="-fx-cursor: hand; -fx-background-color: #fafafc;" />
+        <ImageView fx:id="infoIcon" fitWidth="16" fitHeight="16" translateX="16"
+            style="-fx-cursor: hand; -fx-background-color: #fafafc;" />
+    </HBox>
+</VBox>

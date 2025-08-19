@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.*?>
+
+<BorderPane fx:controller="controller.MainController"
+    xmlns="http://javafx.com/javafx"
+    xmlns:fx="http://javafx.com/fxml"
+    minWidth="900" minHeight="600"
+    stylesheets="@../css/style-light.css"
+    styleClass="root">
+
+    <!-- Custom Title Bar -->
+    <top>
+        <HBox fx:id="titleBar" spacing="10" alignment="CENTER_LEFT" styleClass="title-bar">
+            <ImageView fx:id="appIcon" fitWidth="20" fitHeight="20">
+                <image>
+                    <Image url="@../assets/logo.jpeg" />
+                </image>
+            </ImageView>
+            <Label fx:id="titleLabel" text="Library Management System" styleClass="title-label" />
+            <Pane HBox.hgrow="ALWAYS" />
+            <Button fx:id="minimizeBtn" text="🗕" styleClass="title-btn" onAction="#handleMinimize" />
+            <Button fx:id="closeBtn" text="🗙" styleClass="title-btn" onAction="#handleClose" />
+        </HBox>
+    </top>
+
+    <!-- Dynamic Content Goes Here -->
+    <center>
+        <StackPane fx:id="contentArea" />
+    </center>
+
+</BorderPane>

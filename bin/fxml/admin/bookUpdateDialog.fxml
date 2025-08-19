@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns="http://javafx.com/javafx"
+    xmlns:fx="http://javafx.com/fxml"
+    fx:controller="controller.BookUpdateDialogController"
+    spacing="20"
+    prefWidth="800" prefHeight="600"
+    style="-fx-background-color: #fafafc; -fx-padding: 20;">
+
+    <Label text="Update Book Information" style="-fx-font-size: 24px; -fx-font-weight: bold;" />
+
+    <HBox spacing="40" alignment="TOP_CENTER">
+
+        <!-- Left Column -->
+        <VBox spacing="16">
+            <Label text="Publisher:" style="-fx-font-size: 15px;" translateY="8" />
+            <TextField fx:id="publisherField"
+                style="-fx-background-color: #EEF1F5; -fx-border-color: #EEF1F5;
+                        -fx-border-radius: 1; -fx-background-radius: 1; -fx-padding: 10 16; -fx-pref-width: 340px;" />
+
+            <Label text="Publication Year:" style="-fx-font-size: 15px;" translateY="8" />
+            <TextField fx:id="publicationYearField"
+                style="-fx-background-color: #EEF1F5; -fx-border-color: #EEF1F5;
+                        -fx-border-radius: 1; -fx-background-radius: 1; -fx-padding: 10 16; -fx-pref-width: 340px;" />
+
+            <Label text="Pages:" style="-fx-font-size: 15px;" translateY="8" />
+            <TextField fx:id="pagesField"
+                style="-fx-background-color: #EEF1F5; -fx-border-color: #EEF1F5;
+                        -fx-border-radius: 1; -fx-background-radius: 1; -fx-padding: 10 16; -fx-pref-width: 340px;" />
+
+            <Label text="Genre (comma separated):" style="-fx-font-size: 15px;" translateY="8" />
+            <TextField fx:id="genreField"
+                style="-fx-background-color: #EEF1F5; -fx-border-color: #EEF1F5;
+                        -fx-border-radius: 1; -fx-background-radius: 1; -fx-padding: 10 16; -fx-pref-width: 340px;" />
+
+            <Label text="Language:" style="-fx-font-size: 15px;" translateY="8" />
+            <TextField fx:id="languageField"
+                style="-fx-background-color: #EEF1F5; -fx-border-color: #EEF1F5;
+                        -fx-border-radius: 1; -fx-background-radius: 1; -fx-padding: 10 16; -fx-pref-width: 340px;" />
+
+            <Label text="Edition:" style="-fx-font-size: 15px;" translateY="8" />
+            <TextField fx:id="editionField"
+                style="-fx-background-color: #EEF1F5; -fx-border-color: #EEF1F5;
+                        -fx-border-radius: 1; -fx-background-radius: 1; -fx-padding: 10 16; -fx-pref-width: 340px;" />
+        </VBox>
+
+        <!-- Right Column -->
+        <VBox spacing="16">
+            <Label text="Quantity:" style="-fx-font-size: 15px;" translateY="8" />
+            <TextField fx:id="quantityField"
+                style="-fx-background-color: #EEF1F5; -fx-border-color: #EEF1F5;
+                        -fx-border-radius: 1; -fx-background-radius: 1; -fx-padding: 10 16; -fx-pref-width: 340px;" />
+
+            <Label text="Cover Image:" style="-fx-font-size: 15px;" translateY="8" />
+            <HBox spacing="10">
+                <TextField fx:id="coverImageNameField"
+                    style="-fx-background-color: #EEF1F5; -fx-border-color: #EEF1F5;
+                                  -fx-border-radius: 1; -fx-background-radius: 1;
+                                  -fx-padding: 10 16; -fx-pref-width: 300px;" />
+                <Button fx:id="selectImageButton" text="Browse" styleClass="browse-button" />
+            </HBox>
+
+            <Label text="Description:" style="-fx-font-size: 15px;" translateY="8" />
+            <TextArea fx:id="descriptionField" wrapText="true"
+                styleClass="custom-textarea"
+                prefWidth="340" prefHeight="220" />
+            <Label fx:id="wordCountLabel" text="Words: 0" style="-fx-font-size: 14px"
+                translateY="-8" />
+
+        </VBox>
+
+    </HBox>
+
+    <HBox spacing="15" alignment="CENTER_RIGHT">
+        <Button text="Cancel" onAction="#handleCancel" styleClass="cancel-button" />
+        <Button text="Save" onAction="#handleSave" styleClass="save-button" />
+    </HBox>
+</VBox>

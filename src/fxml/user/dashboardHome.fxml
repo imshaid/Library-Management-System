@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.geometry.Pos?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/24"
+    xmlns:fx="http://javafx.com/fxml/1"
+    fx:controller="controller.UserDashboardHomeController"
+    prefWidth="1000" prefHeight="800"
+    styleClass="dashboard-content">
+
+    <VBox spacing="20" AnchorPane.topAnchor="40" AnchorPane.leftAnchor="40"
+        AnchorPane.rightAnchor="40" AnchorPane.bottomAnchor="40">
+
+        <HBox spacing="20" alignment="CENTER" translateY="-20">
+
+            <!-- Left Side: Title -->
+            <VBox alignment="CENTER_LEFT" HBox.hgrow="ALWAYS">
+                <Label fx:id="welcomeLabel"
+                    style="-fx-font-size: 28px; -fx-font-weight: bold; -fx-text-fill: #2c3e50;" />
+
+                <Label text="Welcome to Your Library Dashboard"
+                    style="-fx-font-size: 20px; -fx-font-weight: bold; -fx-text-fill: #2c3e50;" />
+            </VBox>
+
+            <!-- Right Side: Profile Picture -->
+            <VBox fx:id="userProfileCard" spacing="0" alignment="CENTER_RIGHT">
+                <ImageView fx:id="profileImageView" fitWidth="60" fitHeight="60"
+                    pickOnBounds="true" preserveRatio="true" styleClass="states-card" />
+            </VBox>
+
+        </HBox>
+
+        <!-- Main Section -->
+        <HBox spacing="20" HBox.hgrow="ALWAYS" translateY="-10">
+
+            <!-- Left Info Cards -->
+            <VBox VBox.vgrow="ALWAYS">
+                <GridPane hgap="20" vgap="20" prefWidth="660" prefHeight="270">
+                    <columnConstraints>
+                        <ColumnConstraints percentWidth="50" />
+                        <ColumnConstraints percentWidth="50" />
+                    </columnConstraints>
+                    <rowConstraints>
+                        <RowConstraints percentHeight="50" />
+                        <RowConstraints percentHeight="50" />
+                    </rowConstraints>
+
+                    <!-- Borrowed Books -->
+                    <VBox styleClass="states-card"
+                        style="-fx-background-color: #457B7A; -fx-padding: 20;"
+                        GridPane.rowIndex="0" GridPane.columnIndex="0" alignment="TOP_LEFT">
+                        <Label fx:id="borrowedBooksLabel" text="0"
+                            style="-fx-font-size: 44px; -fx-font-weight: bold; -fx-text-fill: #fafafc;" />
+                        <Pane VBox.vgrow="ALWAYS" />
+                        <Label text="Books Borrowed"
+                            style="-fx-font-size: 20px; -fx-font-weight: semi-bold; -fx-text-fill: #fafafc;" />
+                    </VBox>
+
+                    <!-- Overdue Books -->
+                    <VBox styleClass="states-card"
+                        style="-fx-background-color: #AC575F; -fx-padding: 20;"
+                        GridPane.rowIndex="0" GridPane.columnIndex="1" alignment="TOP_LEFT">
+                        <Label fx:id="overdueBooksLabel" text="0"
+                            style="-fx-font-size: 44px; -fx-font-weight: bold; -fx-text-fill: #fafafc;" />
+                        <Pane VBox.vgrow="ALWAYS" />
+                        <Label text="Overdue Books"
+                            style="-fx-font-size: 20px; -fx-font-weight: semi-bold; -fx-text-fill: #fafafc;" />
+                    </VBox>
+
+                    <!-- Your Average Rating -->
+                    <VBox styleClass="states-card"
+                        style="-fx-background-color: #476283; -fx-padding: 20;"
+                        GridPane.rowIndex="1" GridPane.columnIndex="0" alignment="TOP_LEFT">
+                        <Label fx:id="avgRatingLabel" text="0.0"
+                            style="-fx-font-size: 44px; -fx-font-weight: bold; -fx-text-fill: #fafafc;" />
+                        <Pane VBox.vgrow="ALWAYS" />
+                        <Label text="Average Book Rating"
+                            style="-fx-font-size: 20px; -fx-font-weight: semi-bold; -fx-text-fill: #fafafc;" />
+                    </VBox>
+
+                    <!-- Points -->
+                    <VBox styleClass="states-card"
+                        style="-fx-background-color: #5D647B; -fx-padding: 20;"
+                        GridPane.rowIndex="1" GridPane.columnIndex="1" alignment="TOP_LEFT">
+                        <Label fx:id="pointsLabel" text="0 / 0"
+                            style="-fx-font-size: 44px; -fx-font-weight: bold; -fx-text-fill: #fafafc;" />
+                        <Pane VBox.vgrow="ALWAYS" />
+                        <Label text="Reward Points"
+                            style="-fx-font-size: 20px; -fx-font-weight: semi-bold; -fx-text-fill: #fafafc;" />
+                    </VBox>
+                </GridPane>
+            </VBox>
+
+            <!-- Right Info Cards -->
+            <VBox spacing="20" alignment="TOP_CENTER" prefWidth="320" prefHeight="270"
+                VBox.vgrow="ALWAYS">
+                <!-- Total Books -->
+                <VBox alignment="CENTER" styleClass="states-card"
+                    style="-fx-background-color: #457B7A; -fx-padding: 2;"
+                    prefHeight="77">
+                    <Label fx:id="totalBooksLabel" text="0"
+                        style="-fx-font-size: 38px; -fx-font-weight: bold; -fx-text-fill: #fafafc;" />
+                    <Label text="Total Books"
+                        style="-fx-font-size: 16px; -fx-font-weight: semi-bold; -fx-text-fill: #fafafc;"
+                        translateY="-6" />
+                </VBox>
+
+                <!-- Total Authors -->
+                <VBox alignment="CENTER" styleClass="states-card"
+                    style="-fx-background-color: #AC575F; -fx-padding: 2;"
+                    prefHeight="77">
+                    <Label fx:id="totalAuthorsLabel" text="0"
+                        style="-fx-font-size: 38px; -fx-font-weight: bold; -fx-text-fill: #fafafc;" />
+                    <Label text="Total Authors"
+                        style="-fx-font-size: 16px; -fx-font-weight: semi-bold; -fx-text-fill: #fafafc;"
+                        translateY="-6" />
+                </VBox>
+
+                <!-- Total Genres -->
+                <VBox alignment="CENTER" styleClass="states-card"
+                    style="-fx-background-color: #476283; -fx-padding: 2;"
+                    prefHeight="77">
+                    <Label fx:id="totalGenresLabel" text="0"
+                        style="-fx-font-size: 38px; -fx-font-weight: bold; -fx-text-fill: #fafafc;" />
+                    <Label text="Total Genres"
+                        style="-fx-font-size: 16px; -fx-font-weight: semi-bold; -fx-text-fill: #fafafc;"
+                        translateY="-6" />
+                </VBox>
+            </VBox>
+
+        </HBox>
+
+        <!-- Borrowed Books Section -->
+        <ScrollPane prefHeight="400" fitToWidth="true" style="-fx-background-color: #EEF1F5;">
+            <GridPane fx:id="borrowedBooksGrid" hgap="40"
+                style="-fx-background-color: #EEF1F5; -fx-padding: 0;" />
+        </ScrollPane>
+
+    </VBox>
+</AnchorPane>

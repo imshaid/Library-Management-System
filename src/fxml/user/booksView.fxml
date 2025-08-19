@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/24" xmlns:fx="http://javafx.com/fxml/1"
+    fx:controller="controller.UserBooksViewController"
+    prefWidth="1000" prefHeight="800"
+    styleClass="dashboard-content">
+
+    <VBox spacing="20" AnchorPane.topAnchor="40" AnchorPane.leftAnchor="40"
+        AnchorPane.rightAnchor="40" AnchorPane.bottomAnchor="40">
+
+        <!-- Title Label -->
+        <Label text="All Books"
+            style="-fx-font-size: 28px; -fx-font-weight: bold;" />
+
+        <HBox spacing="10" alignment="CENTER_LEFT"
+            translateX="10" prefWidth="1000">
+
+            <!-- Left side (Search box + Button) -->
+            <HBox spacing="0" alignment="CENTER_LEFT"
+                style="-fx-effect: dropshadow(gaussian, #5e81ac88, 9, 0.15, 0, 0);">
+                <TextField fx:id="searchField"
+                    promptText="Search by Title, Author, Genre, or Publisher"
+                    style="-fx-font-size: 14px; -fx-pref-width: 600px; -fx-padding: 12 32; 
+                          -fx-border-width: 1; -fx-border-radius: 1 0 1 1; 
+                          -fx-background-radius: 1 0 1 1; -fx-background-color: #fafafc;"
+                    translateY="0.5" />
+
+                <Button text="Search" onAction="#handleSearch"
+                    style="-fx-font-size: 16px; -fx-background-color: #476283; -fx-text-fill: #fafafc; 
+                       -fx-border-width: 1 1 1 0; -fx-border-color: #476283; 
+                       -fx-border-radius: 1 1 1 0; -fx-background-radius: 1 1 1 0; 
+                       -fx-padding: 11 36; -fx-cursor: hand;" />
+            </HBox>
+
+            <!-- Spacer -->
+            <Region HBox.hgrow="ALWAYS" />
+
+            <!-- Right side (Sort Dropdown) -->
+            <ComboBox fx:id="sortComboBox" onAction="#handleSortSelection"
+                promptText="Sort by"
+                prefHeight="44"
+                prefWidth="160"
+                translateX="-10"
+                style="-fx-font-size: 16px; 
+                 -fx-background-color: #fafafc; 
+                 -fx-text-fill: #476283;
+                 -fx-border-color: #476283; 
+                 -fx-border-width: 1;
+                 -fx-border-radius: 1; 
+                 -fx-background-radius: 1;
+                 -fx-padding: 0 12; 
+                 -fx-cursor: hand;" />
+        </HBox>
+
+        <!-- Scrollable Book Grid -->
+        <ScrollPane fx:id="scrollPane"
+            fitToWidth="true"
+            style="-fx-background-color: #EEF1F5;">
+
+            <VBox spacing="20" style="-fx-background-color: #EEF1F5; -fx-padding: 10;">
+                <GridPane fx:id="bookGrid" hgap="20" vgap="20">
+                    <!-- Book cards dynamically loaded here -->
+                </GridPane>
+            </VBox>
+        </ScrollPane>
+    </VBox>
+</AnchorPane>

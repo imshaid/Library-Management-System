@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+
+<VBox xmlns="http://javafx.com/javafx/24" xmlns:fx="http://javafx.com/fxml/1"
+    fx:controller="controller.UserInfoDialogController"
+    spacing="10"
+    style="-fx-background-color: white; -fx-border-radius: 10; -fx-background-radius: 10; -fx-padding: 20;"
+    prefWidth="400">
+
+    <HBox spacing="15" alignment="CENTER_LEFT">
+        <ImageView fx:id="profileImage" fitWidth="100" fitHeight="100"
+            style="-fx-border-radius: 50;" />
+        <VBox spacing="5">
+            <Label fx:id="fullNameLabel" style="-fx-font-size: 18px; -fx-font-weight: bold;" />
+            <Label fx:id="usernameLabel" style="-fx-text-fill: gray;" />
+            <Label fx:id="emailLabel" wrapText="true" />
+        </VBox>
+    </HBox>
+
+    <Separator />
+
+    <GridPane hgap="10" vgap="8">
+        <Label text="Phone:" GridPane.columnIndex="0" GridPane.rowIndex="0" />
+        <Label fx:id="phoneLabel" GridPane.columnIndex="1" GridPane.rowIndex="0" />
+
+        <Label text="Address:" GridPane.columnIndex="0" GridPane.rowIndex="1" />
+        <Label fx:id="addressLabel" GridPane.columnIndex="1" GridPane.rowIndex="1" wrapText="true"
+            maxWidth="250" />
+
+        <Label text="Borrowed Books:" GridPane.columnIndex="0" GridPane.rowIndex="2" />
+        <Label fx:id="borrowedCountLabel" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+
+        <Label text="Points:" GridPane.columnIndex="0" GridPane.rowIndex="3" />
+        <Label fx:id="pointsLabel" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+
+        <Label text="Badges:" GridPane.columnIndex="0" GridPane.rowIndex="4" />
+        <Label fx:id="badgesLabel" GridPane.columnIndex="1" GridPane.rowIndex="4" wrapText="true"
+            maxWidth="250" />
+    </GridPane>
+
+    <Separator />
+
+    <Label text="Average Rating:" />
+    <ProgressBar fx:id="ratingBar" prefWidth="350" prefHeight="14" progress="0" />
+    <Label fx:id="averageRatingLabel" />
+
+    <HBox spacing="10" alignment="CENTER_RIGHT">
+        <Button fx:id="closeButton" text="Close" onAction="#handleClose" />
+    </HBox>
+
+</VBox>

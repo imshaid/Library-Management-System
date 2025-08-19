@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.TextFlow?>
+
+<HBox fx:controller="controller.UserBookCardController"
+    xmlns:fx="http://javafx.com/fxml"
+    spacing="10" prefWidth="500" prefHeight="210"
+    style="-fx-background-color: #fafafc; -fx-padding: 15;
+             -fx-border-radius: 1; -fx-background-radius: 1;"
+    styleClass="states-card">
+
+    <!-- Book Cover -->
+    <VBox alignment="CENTER">
+        <ImageView fx:id="coverImage" fitWidth="140" fitHeight="210" styleClass="states-card" />
+    </VBox>
+
+    <!-- Book Details -->
+    <VBox spacing="5" prefWidth="330" maxWidth="330" style="-fx-padding: 0 0 0 10;">
+        <Label fx:id="availabilityLabel" style="-fx-font-size: 10;" />
+        <Label fx:id="titleLabel" style="-fx-font-size: 20px; -fx-font-weight: bold;" />
+
+        <!-- Author Name with styled parts -->
+        <TextFlow fx:id="authorFlow" style="-fx-translate-y: -6;" />
+
+        <Label fx:id="genreLabel" style="-fx-font-size: 14px;" translateY="-4" />
+        <Label fx:id="ratingLabel" style="-fx-font-size: 12px;" translateY="-4" />
+
+        <!-- Description Preview -->
+        <HBox spacing="5">
+            <Label fx:id="descriptionLabel" wrapText="true" maxWidth="280"
+                style="-fx-font-size: 12;" translateY="-4" />
+        </HBox>
+
+        <!-- Icons -->
+        <HBox spacing="200">
+            <ImageView fx:id="borrowIcon" fitWidth="16" fitHeight="16"
+                style="-fx-cursor: hand; -fx-background-color: #fafafc;" />
+            <ImageView fx:id="infoIcon" fitWidth="16" fitHeight="16"
+                style="-fx-cursor: hand; -fx-background-color: #fafafc;" />
+        </HBox>
+    </VBox>
+</HBox>

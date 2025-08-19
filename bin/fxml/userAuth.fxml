@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.Button?>
+
+<AnchorPane xmlns="http://javafx.com/javafx/24" xmlns:fx="http://javafx.com/fxml/1"
+    fx:controller="controller.UserAuthController"
+    prefWidth="900" prefHeight="600"
+    styleClass="root">
+
+    <HBox AnchorPane.topAnchor="0" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0"
+        AnchorPane.rightAnchor="0">
+
+        <!-- =================== LEFT SECTION =================== -->
+        <AnchorPane prefWidth="450" style="-fx-padding: 40;" fx:id="leftPane">
+
+            <!-- === Tabs at Top-Left === -->
+            <HBox spacing="10" alignment="CENTER_LEFT" AnchorPane.topAnchor="20"
+                AnchorPane.leftAnchor="0">
+                <Button fx:id="signInTab" text="Sign In" styleClass="auth-tab-button"
+                    onAction="#handleSignInTabClick" />
+                <Button fx:id="signUpTab" text="Sign Up" styleClass="auth-tab-button"
+                    onAction="#handleSignUpTabClick" />
+            </HBox>
+
+            <!-- === Centered Form === -->
+            <VBox spacing="12" alignment="CENTER"
+                AnchorPane.topAnchor="80" AnchorPane.bottomAnchor="80"
+                AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0">
+
+                <TextField fx:id="usernameOrEmailField"
+                    promptText="\@username or email"
+                    styleClass="auth-input"
+                    style="-fx-pref-width: 360px; -fx-pref-height: 40px;" />
+
+                <PasswordField fx:id="passwordField"
+                    promptText="Password"
+                    styleClass="auth-input"
+                    style="-fx-pref-width: 360px; -fx-pref-height: 40px;" />
+
+                <Label fx:id="errorLabel" style="-fx-text-fill: red;" />
+
+                <Button fx:id="actionButton" text="Sign In"
+                    onAction="#handleSignIn"
+                    styleClass="primary-btn"
+                    style="-fx-pref-width: 368px; -fx-pref-height: 40px;" />
+            </VBox>
+
+            <!-- === Back Button Bottom-Left === -->
+            <Button text="⬅ Back" onAction="#goBack"
+                AnchorPane.bottomAnchor="20" AnchorPane.leftAnchor="0"
+                styleClass="back-button" />
+        </AnchorPane>
+
+        <!-- =================== RIGHT SECTION (IMAGE) =================== -->
+        <ImageView fitWidth="450" fitHeight="600" preserveRatio="false">
+            <image>
+                <Image url="@../assets/signin.jpeg" />
+            </image>
+        </ImageView>
+    </HBox>
+</AnchorPane>

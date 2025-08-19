@@ -1,0 +1,102 @@
+[
+  {
+    "id": "A001",
+    "username": "shaid",
+    "email": "shaid@google.com",
+    "passwordHash": "1234",
+    "fullName": "Md. Shaid Hasan",
+    "registeredDate": "2025-06-10",
+    "phoneNumber": "01234567890",
+    "address": "Mirpur, Dhaka"
+  },
+  {
+    "id": "A002",
+    "username": "nusaiba",
+    "email": "nusaiba@google.com",
+    "passwordHash": "1234",
+    "fullName": "Nusaiba Khan",
+    "registeredDate": "2025-06-12",
+    "phoneNumber": "01234567890",
+    "address": "Agrabad, Chattogram"
+  },
+  {
+    "id": "A003",
+    "username": "tamim",
+    "email": "tamim@google.com",
+    "passwordHash": "1234",
+    "fullName": "Tamim Iqbal",
+    "registeredDate": "2025-06-14",
+    "phoneNumber": "01234567890",
+    "address": "Shahbagh, Dhaka"
+  },
+  {
+    "id": "A004",
+    "username": "lamia",
+    "email": "lamia@google.com",
+    "passwordHash": "1234",
+    "fullName": "Lamia Tabassum",
+    "registeredDate": "2025-06-16",
+    "phoneNumber": "01234567890",
+    "address": "New Market, Rajshahi"
+  },
+  {
+    "id": "A005",
+    "username": "sayem",
+    "email": "sayem@google.com",
+    "passwordHash": "1234",
+    "fullName": "Sayem Bin Rahman",
+    "registeredDate": "2025-06-17",
+    "phoneNumber": "01234567890",
+    "address": "Kotwali, Sylhet"
+  },
+  {
+    "id": "A006",
+    "username": "nahian",
+    "email": "nahian@google.com",
+    "passwordHash": "1234",
+    "fullName": "Nahian Sifat",
+    "registeredDate": "2025-06-18",
+    "phoneNumber": "01234567890",
+    "address": "Rangpur Sadar"
+  },
+  {
+    "id": "A007",
+    "username": "farzana",
+    "email": "farzana@google.com",
+    "passwordHash": "1234",
+    "fullName": "Farzana Sharmin",
+    "registeredDate": "2025-06-20",
+    "phoneNumber": "01234567890",
+    "address": "Kushtia"
+  },
+  {
+    "id": "A008",
+    "username": "ashiq",
+    "email": "ashiq@google.com",
+    "passwordHash": "1234",
+    "fullName": "Ashiq Rahman",
+    "registeredDate": "2025-06-22",
+    "phoneNumber": "01234567890",
+    "address": "Tongi, Gazipur"
+  },
+  {
+    "id": "A009",
+    "username": "sadia",
+    "email": "sadia@google.com",
+    "passwordHash": "1234",
+    "fullName": "Sadia Afroz",
+    "registeredDate": "2025-06-24",
+    "phoneNumber": "01234567890",
+    "address": "Jhenaidah"
+  },
+  {
+    "id": "A010",
+    "username": "rafi",
+    "email": "rafi@google.com",
+    "passwordHash": "1234",
+    "fullName": "Rafiul Islam",
+    "registeredDate": "2025-06-25",
+    "phoneNumber": "01234567890",
+    "address": "Zindabazar, Sylhet"
+  }
+]

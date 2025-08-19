@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<VBox xmlns="http://javafx.com/javafx"
+    xmlns:fx="http://javafx.com/fxml"
+    fx:controller="controller.BookDetailsDialogController"
+    spacing="12"
+    style="-fx-padding: 28; -fx-background-color: #fafafc;"
+    prefWidth="800" prefHeight="400">
+
+    <HBox spacing="28">
+        <!-- Left: Cover + info -->
+        <ImageView fx:id="coverImage" fitWidth="280" fitHeight="420" styleClass="states-card" />
+
+        <!-- Right: Title + Author + Description -->
+        <VBox spacing="10" prefWidth="420">
+            <Label fx:id="titleLabel" style="-fx-font-size: 24px; -fx-font-weight: bold;"
+                wrapText="true" />
+            <Label fx:id="authorLabel" style="-fx-font-size: 16px;" wrapText="true" translateY="-8" />
+
+            <GridPane hgap="40" vgap="6" style="-fx-font-size: 14px; -fx-padding: 20 0 28 0;">
+                <Label text="Publisher:" GridPane.rowIndex="0" GridPane.columnIndex="0" />
+                <Label fx:id="publisherLabel" GridPane.rowIndex="0" GridPane.columnIndex="1" />
+
+                <Label text="Published:" GridPane.rowIndex="1" GridPane.columnIndex="0" />
+                <Label fx:id="publicationYear" GridPane.rowIndex="1" GridPane.columnIndex="1" />
+
+                <Label text="Pages:" GridPane.rowIndex="2" GridPane.columnIndex="0" />
+                <Label fx:id="pages" GridPane.rowIndex="2" GridPane.columnIndex="1" />
+
+                <Label text="Language:" GridPane.rowIndex="3" GridPane.columnIndex="0" />
+                <Label fx:id="languageLabel" GridPane.rowIndex="3" GridPane.columnIndex="1" />
+
+                <Label text="Edition:" GridPane.rowIndex="4" GridPane.columnIndex="0" />
+                <Label fx:id="editionLabel" GridPane.rowIndex="4" GridPane.columnIndex="1" />
+
+                <Label text="Genre:" GridPane.rowIndex="5" GridPane.columnIndex="0" />
+                <Label fx:id="genreLabel" GridPane.rowIndex="5" GridPane.columnIndex="1" />
+
+                <Label text="Quantity:" GridPane.rowIndex="6" GridPane.columnIndex="0" />
+                <Label fx:id="quantityLabel" GridPane.rowIndex="6" GridPane.columnIndex="1" />
+            </GridPane>
+
+            <Label fx:id="ratingLabel" />
+            <Label fx:id="descriptionLabel"
+                wrapText="true"
+                style="-fx-font-size: 14px; -fx-padding: 4 0 0 0" />
+        </VBox>
+    </HBox>
+</VBox>

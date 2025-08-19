@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+
+<BorderPane xmlns="http://javafx.com/javafx/24" xmlns:fx="http://javafx.com/fxml/1"
+    fx:controller="controller.AdminDashboardController"
+    prefWidth="1000" prefHeight="600"
+    styleClass="root">
+
+    <!-- ========= LEFT SIDEBAR ========= -->
+    <left>
+        <VBox fx:id="sidebar" spacing="10" styleClass="sidebar" prefWidth="200"
+            BorderPane.alignment="CENTER">
+
+            <Label text="Admin Panel" styleClass="sidebar-title" />
+
+            <!-- Navigation Buttons -->
+            <Button fx:id="dashboardButton" text="Dashboard" onAction="#handleDashboardClick"
+                styleClass="secondary-btn" />
+            <Button fx:id="usersButton" text="Users" onAction="#handleUsersClick"
+                styleClass="secondary-btn" />
+            <Button fx:id="booksButton" text="Books" onAction="#handleBooksClick"
+                styleClass="secondary-btn" />
+
+
+            <Pane VBox.vgrow="ALWAYS" /> <!-- 👈 Push the next button to bottom -->
+
+            <!-- 🚪 Logout Button -->
+            <Button text="Sign Out" styleClass="secondary-btn" onAction="#handleLogout" />
+        </VBox>
+    </left>
+
+    <!-- ========= MAIN CONTENT AREA ========= -->
+    <center>
+        <AnchorPane fx:id="mainContent" styleClass="dashboard-content" />
+    </center>
+
+</BorderPane>

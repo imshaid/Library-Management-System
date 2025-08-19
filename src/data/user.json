@@ -1,0 +1,791 @@
+[
+  {
+    "borrowedCount": 6,
+    "points": {
+      "current": 158,
+      "max": 180
+    },
+    "badges": [
+      "Bookworm",
+      "Genre Explorer"
+    ],
+    "bookRatingsHistory": [
+      4.3,
+      5.0
+    ],
+    "averageRating": 4.65,
+    "currentBorrowedBooks": [
+      {
+        "bookId": "B021",
+        "borrowDate": "2025-07-05",
+        "returnDate": "2025-07-10"
+      }
+    ],
+    "overdueBooks": [],
+    "profilePicPath": "/assets/users/tahimibn10.jpg",
+    "id": "U002",
+    "registeredDate": "May 15, 2025, 12:00:00 AM",
+    "username": "tahimibn10",
+    "email": "prnato@gmail.com",
+    "passwordHash": "1234",
+    "fullName": "Tahim Ibn Tazul Pranta",
+    "phoneNumber": "01234567890",
+    "address": "Mirpur, Dhaka"
+  },
+  {
+    "borrowedCount": 10,
+    "points": {
+      "current": 60,
+      "max": 90
+    },
+    "badges": [],
+    "bookRatingsHistory": [
+      3.7,
+      4.2,
+      2.9,
+      4.6,
+      3.4
+    ],
+    "averageRating": 3.76,
+    "currentBorrowedBooks": [],
+    "overdueBooks": [],
+    "profilePicPath": "/assets/users/arefin131.jpg",
+    "id": "U003",
+    "registeredDate": "Jun 1, 2025, 12:00:00 AM",
+    "username": "arefin131",
+    "email": "arefin@gmail.com",
+    "passwordHash": "1234",
+    "fullName": "Md. Afsahul Arefin Talukder",
+    "phoneNumber": "01234567890",
+    "address": "Sylhet, Bangladesh"
+  },
+  {
+    "borrowedCount": 67,
+    "points": {
+      "current": 72,
+      "max": 85
+    },
+    "badges": [
+      "Consistent Reader"
+    ],
+    "bookRatingsHistory": [
+      5.0,
+      4.8,
+      4.9,
+      5.0,
+      4.9,
+      4.7,
+      5.0,
+      4.8,
+      4.9,
+      5.0,
+      5.0,
+      4.9,
+      4.8,
+      5.0,
+      5.0,
+      4.9,
+      4.7,
+      5.0,
+      4.9,
+      4.9,
+      5.0,
+      5.0,
+      4.8,
+      5.0,
+      5.0,
+      4.9,
+      4.9,
+      5.0,
+      4.8,
+      5.0
+    ],
+    "averageRating": 4.92,
+    "currentBorrowedBooks": [
+      {
+        "bookId": "B002",
+        "borrowDate": "2025-07-04",
+        "returnDate": "2025-07-09"
+      },
+      {
+        "bookId": "B034",
+        "borrowDate": "2025-07-02",
+        "returnDate": "2025-07-06"
+      },
+      {
+        "bookId": "B021",
+        "borrowDate": "2025-07-03",
+        "returnDate": "2025-07-07"
+      }
+    ],
+    "overdueBooks": [
+      {
+        "bookId": "B001",
+        "borrowDate": "2025-07-02",
+        "returnDate": "2025-07-06"
+      }
+    ],
+    "profilePicPath": "/assets/users/ashraful.jpg",
+    "id": "U004",
+    "registeredDate": "Jun 18, 2025, 12:00:00 AM",
+    "username": "ashraful",
+    "email": "ashraful@gmail.com",
+    "passwordHash": "1234",
+    "fullName": "Md. Ashraful Alam",
+    "phoneNumber": "01234567890",
+    "address": "Khulna"
+  },
+  {
+    "borrowedCount": 3,
+    "points": {
+      "current": 45,
+      "max": 60
+    },
+    "badges": [],
+    "bookRatingsHistory": [],
+    "averageRating": 0.0,
+    "currentBorrowedBooks": [
+      {
+        "bookId": "B031",
+        "borrowDate": "2025-07-06",
+        "returnDate": "2025-07-11"
+      }
+    ],
+    "overdueBooks": [],
+    "profilePicPath": "/assets/users/Abir851.jpg",
+    "id": "U005",
+    "registeredDate": "May 28, 2025, 12:00:00 AM",
+    "username": "Abir851",
+    "email": "abir@gmail.com",
+    "passwordHash": "1234",
+    "fullName": "Yah-Yea Bin Zakaria",
+    "phoneNumber": "01234567890",
+    "address": "Barisal"
+  },
+  {
+    "borrowedCount": 44,
+    "points": {
+      "current": 92,
+      "max": 110
+    },
+    "badges": [
+      "Top Reviewer"
+    ],
+    "bookRatingsHistory": [
+      3.3,
+      3.7,
+      3.9,
+      4.1,
+      3.8,
+      3.6,
+      3.2,
+      4.0,
+      4.3,
+      3.5,
+      3.1,
+      3.9,
+      4.4,
+      3.4,
+      3.8,
+      3.6,
+      4.1,
+      4.2,
+      3.9,
+      4.0,
+      4.5,
+      3.7,
+      4.3,
+      3.9,
+      3.8,
+      4.2,
+      3.6,
+      3.5
+    ],
+    "averageRating": 3.83,
+    "currentBorrowedBooks": [
+      {
+        "bookId": "B002",
+        "borrowDate": "2025-07-03",
+        "returnDate": "2025-07-08"
+      },
+      {
+        "bookId": "B036",
+        "borrowDate": "2025-07-05",
+        "returnDate": "2025-07-10"
+      }
+    ],
+    "overdueBooks": [],
+    "profilePicPath": "/assets/users/tasnim_khan.jpeg",
+    "id": "U006",
+    "registeredDate": "Jun 12, 2025, 12:00:00 AM",
+    "username": "tasnim_khan",
+    "email": "tasnim@gmail.com",
+    "passwordHash": "1234",
+    "fullName": "Tasnim Khan",
+    "phoneNumber": "",
+    "address": "Uttara, Dhaka"
+  },
+  {
+    "borrowedCount": 7,
+    "points": {
+      "current": 68,
+      "max": 80
+    },
+    "badges": [],
+    "bookRatingsHistory": [
+      4.0,
+      3.5
+    ],
+    "averageRating": 3.75,
+    "currentBorrowedBooks": [],
+    "overdueBooks": [],
+    "profilePicPath": "/assets/users/mahfuz_read.jpg",
+    "id": "U007",
+    "registeredDate": "Jun 20, 2025, 12:00:00 AM",
+    "username": "mahfuz_read",
+    "email": "mahfuz@gmail.com",
+    "passwordHash": "1234",
+    "fullName": "Mahfuz Rahim",
+    "phoneNumber": "01234567890",
+    "address": "Rangpur"
+  },
+  {
+    "borrowedCount": 38,
+    "points": {
+      "current": 40,
+      "max": 65
+    },
+    "badges": [
+      "Newcomer"
+    ],
+    "bookRatingsHistory": [
+      5.0,
+      4.9,
+      4.8,
+      4.6,
+      5.0,
+      4.7,
+      4.9,
+      5.0,
+      4.8,
+      5.0,
+      4.9,
+      4.6,
+      5.0,
+      4.7,
+      4.8,
+      4.9,
+      4.9,
+      4.8,
+      4.9,
+      5.0,
+      4.7
+    ],
+    "averageRating": 4.85,
+    "currentBorrowedBooks": [
+      {
+        "bookId": "B021",
+        "borrowDate": "2025-07-06",
+        "returnDate": "2025-07-11"
+      }
+    ],
+    "overdueBooks": [],
+    "profilePicPath": "/assets/users/nusaiba_n.jpeg",
+    "id": "U008",
+    "registeredDate": "Jul 1, 2025, 12:00:00 AM",
+    "username": "nusaiba_n",
+    "email": "nusaiba@gmail.com",
+    "passwordHash": "1234",
+    "fullName": "Nusaiba Nawar",
+    "phoneNumber": "01234567890",
+    "address": "Feni"
+  },
+  {
+    "borrowedCount": 11,
+    "points": {
+      "current": 120,
+      "max": 130
+    },
+    "badges": [
+      "Genre Explorer",
+      "Active Borrower"
+    ],
+    "bookRatingsHistory": [
+      2.5,
+      3.1,
+      4.4,
+      3.9,
+      3.2,
+      4.8,
+      4.0,
+      3.6,
+      3.3
+    ],
+    "averageRating": 3.42,
+    "currentBorrowedBooks": [
+      {
+        "bookId": "B035",
+        "borrowDate": "2025-07-01",
+        "returnDate": "2025-07-06"
+      },
+      {
+        "bookId": "B016",
+        "borrowDate": "2025-07-04",
+        "returnDate": "2025-07-09"
+      }
+    ],
+    "overdueBooks": [
+      {
+        "bookId": "B002",
+        "borrowDate": "2025-07-01",
+        "returnDate": "2025-07-06"
+      }
+    ],
+    "profilePicPath": "/assets/users/farhan_k.jpg",
+    "id": "U009",
+    "registeredDate": "May 30, 2025, 12:00:00 AM",
+    "username": "farhan_k",
+    "email": "farhan@gmail.com",
+    "passwordHash": "1234",
+    "fullName": "Farhan Kabir",
+    "phoneNumber": "01234567890",
+    "address": "Chattogram"
+  },
+  {
+    "borrowedCount": 1,
+    "points": {
+      "current": 25,
+      "max": 40
+    },
+    "badges": [],
+    "bookRatingsHistory": [],
+    "averageRating": 0.0,
+    "currentBorrowedBooks": [],
+    "overdueBooks": [],
+    "profilePicPath": "/assets/users/labiba_m.jpg",
+    "id": "U010",
+    "registeredDate": "Jun 25, 2025, 12:00:00 AM",
+    "username": "labiba_m",
+    "email": "labiba@gmail.com",
+    "passwordHash": "1234",
+    "fullName": "Labiba Mou",
+    "phoneNumber": "0123456789",
+    "address": "Rajshahi"
+  },
+  {
+    "borrowedCount": 29,
+    "points": {
+      "current": 77,
+      "max": 90
+    },
+    "badges": [
+      "Fast Reader"
+    ],
+    "bookRatingsHistory": [
+      5.0,
+      4.9,
+      4.8,
+      4.6,
+      5.0,
+      4.7,
+      4.9,
+      5.0,
+      4.8,
+      5.0,
+      4.9,
+      4.6,
+      5.0,
+      4.7,
+      4.8,
+      4.9,
+      4.9,
+      4.8,
+      4.9,
+      5.0,
+      4.7
+    ],
+    "averageRating": 4.85,
+    "currentBorrowedBooks": [
+      {
+        "bookId": "B017",
+        "borrowDate": "2025-07-06",
+        "returnDate": "2025-07-11"
+      },
+      {
+        "bookId": "B026",
+        "borrowDate": "2025-07-05",
+        "returnDate": "2025-07-10"
+      }
+    ],
+    "overdueBooks": [],
+    "profilePicPath": "/assets/users/rifat_bklover.png",
+    "id": "U011",
+    "registeredDate": "Jun 18, 2025, 12:00:00 AM",
+    "username": "rifat_bklover",
+    "email": "rifat@gmail.com",
+    "passwordHash": "1234",
+    "fullName": "Rifat Rahman",
+    "phoneNumber": "01234567890",
+    "address": "Barisal"
+  },
+  {
+    "borrowedCount": 31,
+    "points": {
+      "current": 58,
+      "max": 58
+    },
+    "badges": [],
+    "bookRatingsHistory": [
+      0.9,
+      1.2,
+      1.5,
+      1.7,
+      2.3,
+      1.4,
+      1.6,
+      1.1,
+      2.0,
+      1.3,
+      2.2,
+      1.8,
+      2.4,
+      2.1,
+      1.9,
+      2.0,
+      1.6,
+      2.3,
+      1.7,
+      1.5,
+      2.2,
+      2.0,
+      1.4,
+      1.9,
+      2.1
+    ],
+    "averageRating": 1.76,
+    "currentBorrowedBooks": [
+      {
+        "bookId": "B002",
+        "borrowDate": "2025-07-03",
+        "returnDate": "2025-07-07"
+      }
+    ],
+    "overdueBooks": [],
+    "profilePicPath": "/assets/users/sumaiya_reader.jpeg",
+    "id": "U012",
+    "registeredDate": "Jun 22, 2025, 12:00:00 AM",
+    "username": "sumaiya_reader",
+    "email": "sumaiya@gmail.com",
+    "passwordHash": "1234",
+    "fullName": "Sumaiya Sultana",
+    "phoneNumber": "01234567890",
+    "address": "Kushtia"
+  },
+  {
+    "borrowedCount": 9,
+    "points": {
+      "current": 30,
+      "max": 45
+    },
+    "badges": [
+      "Quiz Master"
+    ],
+    "bookRatingsHistory": [
+      2.7,
+      3.1
+    ],
+    "averageRating": 2.9,
+    "currentBorrowedBooks": [],
+    "overdueBooks": [],
+    "profilePicPath": "/assets/users/nabil_k.jpg",
+    "id": "U013",
+    "registeredDate": "Jun 29, 2025, 12:00:00 AM",
+    "username": "nabil_k",
+    "email": "nabil@gmail.com",
+    "passwordHash": "1234",
+    "fullName": "Nabil Karim",
+    "phoneNumber": "01234567890",
+    "address": "Sylhet"
+  },
+  {
+    "borrowedCount": 7,
+    "points": {
+      "current": 85,
+      "max": 95
+    },
+    "badges": [
+      "Top Reviewer",
+      "Explorer"
+    ],
+    "bookRatingsHistory": [
+      4.0,
+      4.0,
+      4.5
+    ],
+    "averageRating": 4.17,
+    "currentBorrowedBooks": [
+      {
+        "bookId": "B006",
+        "borrowDate": "2025-07-02",
+        "returnDate": "2025-07-07"
+      }
+    ],
+    "overdueBooks": [
+      {
+        "bookId": "B017",
+        "borrowDate": "2025-07-02",
+        "returnDate": "2025-07-07"
+      }
+    ],
+    "profilePicPath": "/assets/users/sadia_s.jpeg",
+    "id": "U014",
+    "registeredDate": "Jul 3, 2025, 12:00:00 AM",
+    "username": "sadia_s",
+    "email": "sadia@gmail.com",
+    "passwordHash": "1234",
+    "fullName": "Sadia Sharmin",
+    "phoneNumber": "01234567890",
+    "address": "Gazipur"
+  },
+  {
+    "borrowedCount": 23,
+    "points": {
+      "current": 95,
+      "max": 105
+    },
+    "badges": [
+      "Night Owl"
+    ],
+    "bookRatingsHistory": [
+      4.4,
+      4.7,
+      4.3,
+      4.6,
+      4.8,
+      4.2
+    ],
+    "averageRating": 4.5,
+    "currentBorrowedBooks": [
+      {
+        "bookId": "B022",
+        "borrowDate": "2025-07-01",
+        "returnDate": "2025-07-06"
+      },
+      {
+        "bookId": "B021",
+        "borrowDate": "2025-07-04",
+        "returnDate": "2025-07-09"
+      }
+    ],
+    "overdueBooks": [
+      {
+        "bookId": "B010",
+        "borrowDate": "2025-07-01",
+        "returnDate": "2025-07-06"
+      }
+    ],
+    "profilePicPath": "/assets/users/arif_hasan.jpg",
+    "id": "U015",
+    "registeredDate": "Jun 15, 2025, 12:00:00 AM",
+    "username": "arif_hasan",
+    "email": "arif@gmail.com",
+    "passwordHash": "1234",
+    "fullName": "Arif Hasan",
+    "phoneNumber": "",
+    "address": "Dinajpur"
+  },
+  {
+    "borrowedCount": 2,
+    "points": {
+      "current": 73,
+      "max": 88
+    },
+    "badges": [
+      "Consistent Reader"
+    ],
+    "bookRatingsHistory": [
+      4.0,
+      3.5
+    ],
+    "averageRating": 3.75,
+    "currentBorrowedBooks": [],
+    "overdueBooks": [],
+    "profilePicPath": "/assets/users/tasnia_rahman.jpg",
+    "id": "U016",
+    "registeredDate": "Jun 27, 2025, 12:00:00 AM",
+    "username": "tasnia_rahman",
+    "email": "tasnia@gmail.com",
+    "passwordHash": "1234",
+    "fullName": "Tasnia Rahman",
+    "phoneNumber": "01234567890",
+    "address": "Comilla"
+  },
+  {
+    "borrowedCount": 12,
+    "points": {
+      "current": 60,
+      "max": 80
+    },
+    "badges": [],
+    "bookRatingsHistory": [
+      4.5,
+      5.0,
+      5.0
+    ],
+    "averageRating": 4.83,
+    "currentBorrowedBooks": [
+      {
+        "bookId": "B040",
+        "borrowDate": "2025-07-05",
+        "returnDate": "2025-07-10"
+      }
+    ],
+    "overdueBooks": [],
+    "profilePicPath": "/assets/users/zayed_coder.jpeg",
+    "id": "U017",
+    "registeredDate": "Jun 20, 2025, 12:00:00 AM",
+    "username": "zayed_coder",
+    "email": "zayed@gmail.com",
+    "passwordHash": "1234",
+    "fullName": "Zayed Hossain",
+    "phoneNumber": "01234567890",
+    "address": "Narayanganj"
+  },
+  {
+    "borrowedCount": 4,
+    "points": {
+      "current": 42,
+      "max": 60
+    },
+    "badges": [],
+    "bookRatingsHistory": [],
+    "averageRating": 0.0,
+    "currentBorrowedBooks": [
+      {
+        "bookId": "B025",
+        "borrowDate": "2025-07-03",
+        "returnDate": "2025-07-07"
+      }
+    ],
+    "overdueBooks": [],
+    "profilePicPath": "/assets/users/mim_akter.jpg",
+    "id": "U018",
+    "registeredDate": "Jun 14, 2025, 12:00:00 AM",
+    "username": "mim_akter",
+    "email": "mim@gmail.com",
+    "passwordHash": "1234",
+    "fullName": "Mim Akter",
+    "phoneNumber": "01234567890",
+    "address": "Pabna"
+  },
+  {
+    "borrowedCount": 6,
+    "points": {
+      "current": 88,
+      "max": 93
+    },
+    "badges": [
+      "Top Reviewer"
+    ],
+    "bookRatingsHistory": [
+      5.0,
+      4.5,
+      5.0
+    ],
+    "averageRating": 4.83,
+    "currentBorrowedBooks": [
+      {
+        "bookId": "B036",
+        "borrowDate": "2025-07-06",
+        "returnDate": "2025-07-11"
+      }
+    ],
+    "overdueBooks": [],
+    "profilePicPath": "/assets/users/tanvir_islam.jpeg",
+    "id": "U019",
+    "registeredDate": "Jun 24, 2025, 12:00:00 AM",
+    "username": "tanvir_islam",
+    "email": "tanvir@gmail.com",
+    "passwordHash": "1234",
+    "fullName": "Tanvir Islam",
+    "phoneNumber": "01234567890",
+    "address": "Jamalpur"
+  },
+  {
+    "borrowedCount": 42,
+    "points": {
+      "current": 89,
+      "max": 104
+    },
+    "badges": [
+      "Fast Reader",
+      "Top Reviewer"
+    ],
+    "bookRatingsHistory": [
+      4.6,
+      4.1,
+      4.8,
+      3.7,
+      5.0,
+      4.4,
+      4.0,
+      4.5,
+      3.9,
+      4.3,
+      3.8,
+      4.1,
+      4.6,
+      4.2,
+      4.0,
+      4.7,
+      3.9,
+      4.2,
+      4.5,
+      4.7,
+      4.8,
+      3.7,
+      5.0,
+      4.5,
+      5.0,
+      4.7,
+      4.5,
+      4.9,
+      4.8,
+      4.5,
+      4.6
+    ],
+    "averageRating": 4.58,
+    "currentBorrowedBooks": [
+      {
+        "bookId": "B032",
+        "borrowDate": "2025-08-08",
+        "returnDate": "2025-08-15"
+      },
+      {
+        "bookId": "B035",
+        "borrowDate": "2025-08-17",
+        "returnDate": "2025-08-25"
+      },
+      {
+        "bookId": "B026",
+        "borrowDate": "2025-08-19",
+        "returnDate": "2025-08-19"
+      },
+      {
+        "bookId": "B001",
+        "borrowDate": "2025-08-19",
+        "returnDate": "2025-09-03"
+      }
+    ],
+    "overdueBooks": [],
+    "profilePicPath": "/assets/users/shaid.jpg",
+    "id": "U001",
+    "registeredDate": "Jun 10, 2025, 12:00:00 AM",
+    "username": "shaid",
+    "email": "shaid@gmail.com",
+    "passwordHash": "1234",
+    "fullName": "Md. Shaid Hasan Surjo",
+    "phoneNumber": "01234567890",
+    "address": "Dhaka"
+  }
+]

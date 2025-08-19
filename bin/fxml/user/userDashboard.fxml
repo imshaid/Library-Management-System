@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+
+<BorderPane xmlns="http://javafx.com/javafx/24" xmlns:fx="http://javafx.com/fxml/1"
+    fx:controller="controller.UserDashboardController"
+    prefWidth="1000" prefHeight="600"
+    styleClass="root">
+
+    <!-- Sidebar -->
+    <left>
+        <VBox fx:id="sidebar" spacing="10" styleClass="sidebar" prefWidth="200"
+            BorderPane.alignment="CENTER">
+
+            <Label text="User Panel" styleClass="sidebar-title" />
+
+            <Button fx:id="dashboardButton" text="Dashboard" onAction="#handleDashboardClick"
+                styleClass="secondary-btn" />
+            <Button fx:id="booksButton" text="Books" onAction="#handleBooksClick"
+                styleClass="secondary-btn" />
+            <Button fx:id="settingsButton" text="Settings" onAction="#handleSettingsClick"
+                styleClass="secondary-btn" />
+
+            <Pane VBox.vgrow="ALWAYS" />
+
+            <!-- Chatbot Stack: icon + chatbot window -->
+            <StackPane alignment="BOTTOM_CENTER">
+                <!-- Chatbot Window -->
+                <StackPane fx:id="chatbotContainer"
+                    prefWidth="180" prefHeight="410"
+                    visible="false"
+                    style="-fx-background-color: #fafafc; -fx-border-width: 0 0 0 1.5; -fx-border-color: #B7C6D7; -fx-border-radius: 1; -fx-background-radius: 1; -fx-effect: dropshadow(gaussian, #5e81ac88, 9, 0.15, 0, 0);"
+                    StackPane.alignment="BOTTOM_CENTER">
+
+                    <StackPane.margin>
+                        <Insets top="0" right="0" bottom="50" left="0" />
+                    </StackPane.margin>
+
+                    <VBox spacing="0" VBox.vgrow="ALWAYS">
+
+                        <Label text="AI ChatBot"
+                            style="-fx-font-size: 14px; -fx-font-weight: bold; -fx-text-fill: #2e3440; -fx-padding: 6 10" />
+
+                        <!-- Conversation Area -->
+                        <ScrollPane fitToWidth="true" prefHeight="300" VBox.vgrow="ALWAYS"
+                            style="-fx-background-color: transparent;">
+                            <VBox fx:id="chatBox" spacing="6" style="-fx-padding: 4;" />
+                        </ScrollPane>
+
+                        <!-- Input Area -->
+                        <HBox spacing="0" alignment="BOTTOM_LEFT" style="-fx-padding: 2;">
+
+                            <!-- Message Input -->
+                            <TextArea fx:id="userMessageField"
+                                promptText="Type here..."
+                                prefRowCount="3"
+                                wrapText="true"
+                                HBox.hgrow="ALWAYS"
+                                style="-fx-font-family: 'Consolas';
+                     -fx-background-color: #fafafc;
+                     -fx-border-radius: 1;
+                     -fx-background-radius: 1;
+                     -fx-border-color: transparent;
+                     -fx-focus-color: transparent;
+                     -fx-faint-focus-color: transparent;
+                     -fx-control-inner-background: #eef1f5;" />
+
+                            <!-- Send Button aligned to bottom -->
+                            <Button text="✔"
+                                onAction="#handleSendMessage"
+                                minWidth="24" prefWidth="24" maxWidth="24"
+                                minHeight="24" prefHeight="24" maxHeight="24"
+                                style="-fx-font-size: 10; -fx-text-fill: #fafafc; -fx-background-color: #476283; -fx-border-radius: 1; -fx-background-radius: 1; -fx-cursor: hand;"
+                                translateY="-4" />
+                        </HBox>
+
+                    </VBox>
+                </StackPane>
+
+                <!-- Bot Icon -->
+                <ImageView fx:id="botIcon"
+                    fitWidth="40" fitHeight="40"
+                    onMouseClicked="#toggleChatbot"
+                    style="-fx-cursor: hand;"
+                    StackPane.alignment="BOTTOM_LEFT"
+                    translateX="16" />
+            </StackPane>
+
+            <!-- Sign Out Button -->
+            <Button text="Sign Out" styleClass="secondary-btn" onAction="#handleLogout" />
+        </VBox>
+    </left>
+
+    <!-- Main Content -->
+    <center>
+        <AnchorPane fx:id="mainContent" styleClass="dashboard-content" />
+    </center>
+</BorderPane>

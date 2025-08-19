@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+
+<VBox xmlns="http://javafx.com/javafx"
+    xmlns:fx="http://javafx.com/fxml"
+    fx:controller="controller.UserSettingsView"
+    spacing="20"
+    prefWidth="1000" prefHeight="800"
+    style="-fx-background-color: #fafafc; -fx-padding: 30;">
+
+    <Label text="User Settings" style="-fx-font-size: 24px; -fx-font-weight: bold;" />
+
+    <HBox spacing="100" alignment="TOP_CENTER" VBox.vgrow="ALWAYS">
+
+        <!-- Left Section: User Info Update + Delete Button Below -->
+        <VBox spacing="60" alignment="TOP_LEFT" prefWidth="400">
+
+            <VBox spacing="16" alignment="TOP_LEFT">
+                <!-- Profile Image and Browse -->
+                <HBox alignment="CENTER_LEFT" spacing="16">
+                    <ImageView fx:id="profileImageView"
+                        fitWidth="160" fitHeight="160"
+                        preserveRatio="true"
+                        style="-fx-border-color: transparent; -fx-border-radius: 1; -fx-background-radius: 1;" />
+                    <Button fx:id="browseImageButton"
+                        text="Browse"
+                        onAction="#handleBrowseImage"
+                        styleClass="browse-button"
+                        style="-fx-pref-height: 36px;" />
+                </HBox>
+
+                <Label text="Full Name:" style="-fx-font-size: 15px;" />
+                <TextField fx:id="fullNameField"
+                    style="-fx-background-color: #EEF1F5; -fx-padding: 10 16; -fx-pref-width: 340px;" />
+
+                <Label text="Email:" style="-fx-font-size: 15px;" />
+                <TextField fx:id="emailField"
+                    style="-fx-background-color: #EEF1F5; -fx-padding: 10 16; -fx-pref-width: 340px;" />
+
+                <Label text="Phone Number:" style="-fx-font-size: 15px;" />
+                <TextField fx:id="phoneField"
+                    style="-fx-background-color: #EEF1F5; -fx-padding: 10 16; -fx-pref-width: 340px;" />
+
+                <Label text="Address:" style="-fx-font-size: 15px;" />
+                <TextField fx:id="addressField"
+                    style="-fx-background-color: #EEF1F5; -fx-padding: 10 16; -fx-pref-width: 340px;" />
+
+                <!-- Save & Cancel Buttons -->
+                <HBox spacing="10" alignment="CENTER_LEFT" style="-fx-padding: 10 0 0 0;">
+                    <Button fx:id="cancelButton" text="Cancel"
+                        onAction="#handleCancelChanges"
+                        styleClass="cancel-button" />
+                    <Button fx:id="saveButton" text="Save"
+                        onAction="#handleSaveChanges"
+                        styleClass="save-button" />
+                </HBox>
+            </VBox>
+
+            <!-- Delete Account Button below the user info form -->
+            <Button text="Delete Account"
+                onAction="#handleDeleteAccount"
+                style="-fx-background-color: ac575f; -fx-text-fill: #fafafc; -fx-padding: 10 28; -fx-font-size: 16px; -fx-border-width: 1px; -fx-border-radius: 1px; -fx-background-radius: 1px; -fx-cursor: hand;" />
+        </VBox>
+
+        <!-- Right Section: Password Update -->
+        <VBox spacing="16" alignment="TOP_LEFT" prefWidth="400">
+            <Label text="Current Password:" style="-fx-font-size: 15px;" />
+            <PasswordField fx:id="currentPasswordField"
+                style="-fx-background-color: #EEF1F5; -fx-padding: 10 16; -fx-pref-width: 340px;" />
+
+            <Label text="New Password:" style="-fx-font-size: 15px;" />
+            <PasswordField fx:id="newPasswordField"
+                style="-fx-background-color: #EEF1F5; -fx-padding: 10 16; -fx-pref-width: 340px;" />
+
+            <Label text="Confirm New Password:" style="-fx-font-size: 15px;" />
+            <PasswordField fx:id="confirmPasswordField"
+                style="-fx-background-color: #EEF1F5; -fx-padding: 10 16; -fx-pref-width: 340px;" />
+
+            <Button text="Update"
+                onAction="#handleChangePassword"
+                styleClass="save-button"
+                style="-fx-pref-width: 100px;" />
+        </VBox>
+
+    </HBox>
+
+</VBox>

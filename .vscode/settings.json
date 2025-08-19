@@ -1,0 +1,10 @@
+{
+  "java.project.sourcePaths": ["src"],
+  "java.project.outputPath": "bin",
+  "java.project.referencedLibraries": [
+    "lib/**/*.jar",
+    "C:/Users/ASUS/Downloads/javafx-sdk-24.0.1/lib/*.jar"
+  ],
+  "java.debug.settings.onBuildFailureProceed": true,
+  "cSpell.words": ["titlebar"]
+}

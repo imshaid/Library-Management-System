@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Launch LMS",
+      "request": "launch",
+      "mainClass": "Main",
+      "projectName": "LMS_c9c151bc",
+      "vmArgs": "--module-path C:/Users/ASUS/Downloads/javafx-sdk-24.0.1/lib --add-modules javafx.controls,javafx.fxml"
+    }
+  ]
+}
